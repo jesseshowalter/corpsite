@@ -9,45 +9,107 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/build\/images\/angleBottom.png": {
-		"ft": 32768,
-		"iS": 23410,
-		"oA": 0,
-		"oAP": "\/build\/images\/angleBottom.png",
-		"oF": 0,
-		"opt": 0
+	"\/build\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/about.html",
+		"oF": 0
 		},
-	"\/build\/images\/angleTop.png": {
-		"ft": 32768,
-		"iS": 15488,
-		"oA": 0,
-		"oAP": "\/build\/images\/angleTop.png",
-		"oF": 0,
-		"opt": 0
+	"\/build\/fonts\/GothamSSm-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GothamSSm-Bold.otf",
+		"oF": 0
 		},
-	"\/build\/images\/featuredLogos.png": {
-		"ft": 32768,
-		"iS": 22142,
+	"\/build\/fonts\/GothamSSm-Book.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GothamSSm-Book.otf",
+		"oF": 0
+		},
+	"\/build\/fonts\/GothamSSm-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GothamSSm-Light.otf",
+		"oF": 0
+		},
+	"\/build\/fonts\/GothamSSm-Medium.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/GothamSSm-Medium.otf",
+		"oF": 0
+		},
+	"\/build\/images\/angleBottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/angleBottom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/angleTop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/angleTop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/banner-about.jpg": {
+		"ft": 16384,
+		"iS": 117658,
 		"oA": 0,
-		"oAP": "\/build\/images\/featuredLogos.png",
+		"oAP": "\/build\/images\/banner-about.jpg",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/build\/images\/heroBG.jpg": {
+	"\/build\/images\/banner-home.jpg": {
 		"ft": 16384,
 		"iS": 1660389,
 		"oA": 0,
-		"oAP": "\/build\/images\/heroBG.jpg",
+		"oAP": "\/build\/images\/banner-home.jpg",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/build\/images\/hobnobLogo.png": {
-		"ft": 32768,
-		"iS": 2810,
+	"\/build\/images\/banner-iosAndroid.jpg": {
+		"ft": 16384,
+		"iS": 33069,
 		"oA": 0,
-		"oAP": "\/build\/images\/hobnobLogo.png",
+		"oAP": "\/build\/images\/banner-iosAndroid.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
+		},
+	"\/build\/images\/featuredLogos.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/featuredLogos.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/hobnobLogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/hobnobLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/phoneFrame.png": {
+		"ft": 32768,
+		"iS": 522740,
+		"oA": 0,
+		"oAP": "\/build\/images\/phoneFrame.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/build\/index.html": {
 		"ft": 8192,
@@ -2078,6 +2140,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/styles\/4-modules\/_bannerIosAndroid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/4-modules\/_bannerIosAndroid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/4-modules\/_featureStatement.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/4-modules\/_featureStatement.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/4-modules\/_valuesList.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/4-modules\/_valuesList.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/styles\/5-templates\/_5-templates.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2087,6 +2188,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/5-templates\/_5-templates.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/5-templates\/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/5-templates\/_home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2113,7 +2227,7 @@
 	"creationDate": 506556933,
 	"displayValue": "corpsite",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-krieger"
+	"iconImageName": "brackets_teal"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

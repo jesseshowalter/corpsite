@@ -6,4 +6,5 @@ a{
 }
 .container{
   @include outer-container;
+  padding: 0 40px; 
 }

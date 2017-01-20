@@ -1,0 +1,25 @@
+.valuesListBlock{
+  border-bottom: 1px solid $gray;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+  &:last-child{
+    border: none;
+  }
+  h3{
+    @include span-columns(4);
+    padding: 0;
+    margin: 0;
+  }
+  span{
+    font-size: 70px;
+    color: #EEEEEE;
+    margin-right:-15px;
+  }
+  p{
+    @include span-columns(8);
+    padding: 0;
+    margin: 0;
+  }
+}

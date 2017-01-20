@@ -6,6 +6,16 @@
   margin:0;
   padding: 20px 0;
   float:left;
+  transition: (all 0.15s ease-out 0s);
+
+  &:hover{
+    opacity:0.8;
+  }
+  h1{
+    margin:0;
+    padding:0;
+    font-size: 0;
+  }
 }
 #navMenu{
   margin:5px 0 0;
@@ -18,11 +28,27 @@
     display:inline-block;
     color: white;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 10px 15px;
     margin-left: 10px;
+    border-bottom: 2px solid transparent;
+    transition: (all 0.15s ease-out 0s);
+    font-family: $font-book;
+  }
+  a:hover{
+    border-bottom: 4px solid $turquoise;
+    opacity: 0.9;
+  }
+  .navActive{
+    border-bottom: 4px solid $turquoise;
+    font-family: $font-bold;
   }
   .download{
-    border: 1px solid #fff;
-    border-radius: 5px;
+    border: 2px solid #fff;
+    border-radius: 1px;
+  }
+  .download:hover{
+    border: 2px solid $turquoise;
+    background: $turquoise;
+    opacity: 1s;
   }
 }

@@ -5,8 +5,9 @@ $shamrock: #2CD4AE; //Shamrock Green used for text links and headers
 $turquoise: #4FE3C0; //buttons and in gradient
 $celadon: #99E09C; //older green used in gradient
 $mineShaft: #303030; //black used in text headers
-$coal: #606060; //lighter black shade for supporting text
+$coal: #727272; //lighter black shade for supporting text
 $alabaster: #F9F9F9; //nuetral used in large blocks
+$gray: #E5E5E5; //used for lines and small accents
 
 // *****************
 // BREAKPOINTS
@@ -18,4 +19,7 @@ $breakpoint-mobile: 400px;
 
 // }
 
-$font-stack: 'Lato', helvetica ,sans-serif;
+$font-light:  "Gotham-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$font-book:   "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$font-medium: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$font-bold: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;

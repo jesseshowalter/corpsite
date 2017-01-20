@@ -6,7 +6,7 @@ html { background: white; }
 
 a { text-decoration: none; }
 
-.container { max-width: 1200px; margin-left: auto; margin-right: auto; }
+.container { max-width: 1200px; margin-left: auto; margin-right: auto; padding: 0 40px; }
 
 .container::after { clear: both; content: ""; display: block; }
 
@@ -26,7 +26,27 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-body { background-color: white; font-weight: 300; line-height: 1.45; color: #333; font-family: sans-serif; }
+@font-face { font-family: 'Gotham-Light'; src: url("../fonts/GothamSSm-Light.otf"); /* IE9 Compat Modes */ src: url("../fonts/GothamSSm-Light.otf") format("embedded-opentype"), url("../fonts/GothamSSm-Light.otf") format("woff2"), url("../fonts/GothamSSm-Light.otf") format("woff"), url("../fonts/GothamSSm-Light.otf") format("truetype"), url("../fonts/GothamSSm-Light.otf") format("svg"); /* Legacy iOS */ }
+
+@font-face { font-family: 'Gotham-Book'; src: url("../fonts/GothamSSm-Book.otf"); /* IE9 Compat Modes */ src: url("../fonts/GothamSSm-Book.otf") format("embedded-opentype"), url("../fonts/GothamSSm-Book.otf") format("woff2"), url("../fonts/GothamSSm-Book.otf") format("woff"), url("../fonts/GothamSSm-Book.otf") format("truetype"), url("../fonts/GothamSSm-Book.otf") format("svg"); /* Legacy iOS */ }
+
+@font-face { font-family: 'Gotham-Medium'; src: url("../fonts/GothamSSm-Medium.otf"); /* IE9 Compat Modes */ src: url("../fonts/GothamSSm-Medium.otf") format("embedded-opentype"), url("../fonts/GothamSSm-Medium.otf") format("woff2"), url("../fonts/GothamSSm-Medium.otf") format("woff"), url("../fonts/GothamSSm-Medium.otf") format("truetype"), url("../fonts/GothamSSm-Medium.otf") format("svg"); /* Legacy iOS */ }
+
+@font-face { font-family: 'Gotham-Bold'; src: url("../fonts/GothamSSm-Bold.otf"); /* IE9 Compat Modes */ src: url("../fonts/GothamSSm-Bold.otf") format("embedded-opentype"), url("../fonts/GothamSSm-Bold.otf") format("woff2"), url("../fonts/GothamSSm-Bold.otf") format("woff"), url("../fonts/GothamSSm-Bold.otf") format("truetype"), url("../fonts/GothamSSm-Bold.otf") format("svg"); /* Legacy iOS */ }
+
+body { background-color: white; line-height: 1.45; color: #333; font-family: "Gotham-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; text-rendering: optimizeLegibility; }
+
+p { margin-bottom: 1.3em; color: #727272; }
+
+h1, h2, h3, h4 { margin: 1.414em 0 0.5em; font-weight: inherit; line-height: 1.2; text-transform: uppercase; font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+h1 { margin-top: 0; font-size: 3.998em; }
+
+h2 { font-size: 2.827em; }
+
+h3 { font-size: 1.999em; }
+
+h4 { font-size: 1.414em; }
 
 small, .font_small { font-size: 0.707em; }
 
@@ -34,20 +54,62 @@ blockquote { font-weight: 100; font-style: italic; font-size: 1em; position: rel
 
 cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top: 10px; display: block; }
 
-#siteHeader { background-image: url(../images/heroBG.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 90vh; margin: 0 auto; color: white; position: relative; }
+#siteHeader { background-image: url(../images/banner-about.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 50vh; margin: 0 auto; position: relative; }
 
-#heroWrapper .videoContainer video { width: 200px; }
+#siteHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -30px; left: 0; width: 100%; height: 247px; }
+
+#siteHeaderWrapper { overflow: hidden; width: 100%; height: 38vh; display: flex; text-align: center; align-items: center; justify-content: center; }
+
+#siteHeaderWrapper h1 { font-weight: bold; color: white; }
 
 #mainNav { overflow: auto; padding-top: 20px; }
 
-#brand { margin: 0; padding: 20px 0; float: left; }
+#brand { margin: 0; padding: 20px 0; float: left; transition: all 0.15s ease-out 0s; }
+
+#brand:hover { opacity: 0.8; }
+
+#brand h1 { margin: 0; padding: 0; font-size: 0; }
 
 #navMenu { margin: 5px 0 0; padding: 0; float: right; }
 
 #navMenu li { display: inline; }
 
-#navMenu a { display: inline-block; color: white; text-transform: uppercase; padding: 15px; margin-left: 10px; }
+#navMenu a { display: inline-block; color: white; text-transform: uppercase; padding: 10px 15px; margin-left: 10px; border-bottom: 2px solid transparent; transition: all 0.15s ease-out 0s; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
-#navMenu .download { border: 1px solid #fff; border-radius: 5px; }
+#navMenu a:hover { border-bottom: 4px solid #4FE3C0; opacity: 0.9; }
+
+#navMenu .navActive { border-bottom: 4px solid #4FE3C0; font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+#navMenu .download { border: 2px solid #fff; border-radius: 1px; }
+
+#navMenu .download:hover { border: 2px solid #4FE3C0; background: #4FE3C0; opacity: 1s; }
+
+.valuesListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: center; padding: 70px 0; }
+
+.valuesListBlock:last-child { border: none; }
+
+.valuesListBlock h3 { float: left; display: block; margin-right: 2.3576520234%; width: 31.7615653177%; padding: 0; margin: 0; }
+
+.valuesListBlock h3:last-child { margin-right: 0; }
+
+.valuesListBlock span { font-size: 70px; color: #EEEEEE; margin-right: -15px; }
+
+.valuesListBlock p { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; padding: 0; margin: 0; }
+
+.valuesListBlock p:last-child { margin-right: 0; }
+
+.featureStatement { text-align: center; max-width: 800px; margin: 100px auto 60px; }
+
+.featureStatement h2 { font-size: 1.999em; }
+
+#bannerIosAndroid { background: url("../images/banner-IosAndroid.jpg") no-repeat, 0 0; background-size: cover; height: 250px; color: white; text-align: center; padding: 50px 0 0; margin-top: 100px; border: none; position: relative; }
+
+#bannerIosAndroid:before { background-image: url(../images/angleBottom.svg); background-size: cover; content: " "; position: absolute; top: -25px; left: 0; width: 100%; height: 100px; }
+
+#bannerIosAndroid h3 { font-size: 2.827em; }
+
+#heroHeader { background-image: url(../images/banner-home.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 90vh; margin: 0 auto; color: white; position: relative; }
+
+#heroWrapper .videoContainer video { width: 300px; }
 
 /*# sourceMappingURL=main.css.map */

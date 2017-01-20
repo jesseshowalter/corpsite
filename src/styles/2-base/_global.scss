@@ -1,3 +1,6 @@
 html{
-  background: pink;
+  background: white;
+}
+.container{
+  @include outer-container;
 }

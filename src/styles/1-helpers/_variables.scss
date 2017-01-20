@@ -1,0 +1,21 @@
+// *****************
+// Color Variables
+// *****************
+$shamrock: #2CD4AE; //Shamrock Green used for text links and headers
+$turquoise: #4FE3C0; //buttons and in gradient
+$celadon: #99E09C; //older green used in gradient
+$mineShaft: #303030; //black used in text headers
+$coal: #606060; //lighter black shade for supporting text
+$alabaster: #F9F9F9; //nuetral used in large blocks
+
+// *****************
+// BREAKPOINTS
+// *****************
+$breakpoint-desktop: 1000px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 400px;
+// @media (max-width: $breakpoint-tablet) {
+
+// }
+
+$font-stack: 'Lato', helvetica ,sans-serif;

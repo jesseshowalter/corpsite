@@ -9,6 +9,38 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/build\/images\/angleBottom.png": {
+		"ft": 32768,
+		"iS": 23410,
+		"oA": 0,
+		"oAP": "\/build\/images\/angleBottom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/angleTop.png": {
+		"ft": 32768,
+		"iS": 15488,
+		"oA": 0,
+		"oAP": "\/build\/images\/angleTop.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/heroBG.jpg": {
+		"ft": 16384,
+		"iS": 1660389,
+		"oA": 0,
+		"oAP": "\/build\/images\/heroBG.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/build\/images\/hobnobLogo.png": {
+		"ft": 32768,
+		"iS": 2810,
+		"oA": 0,
+		"oAP": "\/build\/images\/hobnobLogo.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/build\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1967,19 +1999,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/styles\/2-base\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/styles\/2-base\/_reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/src\/styles\/2-base\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2002,6 +2021,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/3-layout\/_3-layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/3-layout\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/3-layout\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/3-layout\/_siteHeader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/3-layout\/_siteHeader.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

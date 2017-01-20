@@ -3,8 +3,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position:0 0;
-  height: 60vh;
+  height: 90vh;
   margin: 0 auto;
   color: white;
   position: relative;
+}
+
+#heroWrapper{
+
+  .videoContainer{
+
+    video{
+      width: 200px;
+    }
+  }
 }

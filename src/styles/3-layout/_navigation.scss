@@ -1,8 +1,28 @@
 #mainNav{
-  background: transparent;
-  border: 1px solid white;
+  overflow: auto;
+  padding-top: 20px;
 }
-
 #brand{
+  margin:0;
+  padding: 20px 0;
+  float:left;
+}
+#navMenu{
+  margin:5px 0 0;
+  padding: 0;
+  float: right;
 
+  li{ display:inline;}
+
+  a{
+    display:inline-block;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-left: 10px;
+  }
+  .download{
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
 }

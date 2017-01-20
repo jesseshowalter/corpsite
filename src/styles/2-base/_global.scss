@@ -1,6 +1,9 @@
 html{
   background: white;
 }
+a{
+  text-decoration: none;
+}
 .container{
   @include outer-container;
 }

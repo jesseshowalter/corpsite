@@ -235,6 +235,15 @@
 		"oAP": "\/build\/video\/hobnobDemoVideo.mp4",
 		"oF": 0
 		},
+	"\/src\/scripts\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/scripts\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/styles\/.sass-cache\/0c90e8b898a49861a44d984eadf090c05b64d750\/_box-sizing.scssc": {
 		"ft": 8192,
 		"oA": 1,

@@ -38,7 +38,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 body { background-color: white; line-height: 1.45; color: #333; font-family: "Gotham-Light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; text-rendering: optimizeLegibility; }
 
-p { margin-bottom: 1.3em; color: #727272; }
+p { margin-bottom: 1.3em; color: #727272; line-height: 2; }
 
 h1, h2, h3, h4 { margin: 1.414em 0 0.5em; font-weight: inherit; line-height: 1.2; text-transform: uppercase; font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
@@ -60,17 +60,17 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #siteHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -30px; left: 0; width: 100%; height: 247px; }
 
-#siteHeader.about { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-about.jpg"); }
+#siteHeader.about { background: url("../images/banner-about.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeader.press { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-press.jpg"); }
+#siteHeader.press { background: url("../images/banner-press.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeader.faq { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-faq.jpg"); }
+#siteHeader.faq { background: url("../images/banner-faq.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeader.jobs { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-jobs.jpg"); }
+#siteHeader.jobs { background: url("../images/banner-jobs.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeader.business { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-business.jpg"); }
+#siteHeader.business { background: url("../images/banner-business.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeader.policyAndTerms { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-policyAndTerms.jpg"); }
+#siteHeader.policyAndTerms { background: url("../images/banner-policyAndTerms.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
 #siteHeaderWrapper { overflow: hidden; width: 100%; height: 38vh; display: flex; text-align: center; align-items: center; justify-content: center; }
 
@@ -140,7 +140,7 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn:last-child { margin-right: 0; }
 
-#mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 60px 0; }
+#mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 80px 0; }
 
 #mainColumn .contentBlock h3 { margin: 60px 0; }
 
@@ -148,17 +148,33 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn .contentBlock:first-child h3 { margin-top: 10px; }
 
-#mainColumn .videoContainer { float: left; }
-
 #mainColumn .downloadButtons { text-align: center; margin-top: 300px; }
 
 #mainColumn .downloadBtn { overflow: auto; display: block; margin-top: 20px; }
 
 #mainColumn .downloadBtn img { width: 200px; }
 
+#mainColumn .valueProp { overflow: auto; display: flex; margin-bottom: 60px; }
+
+#mainColumn .valueProp:last-child { border: none; }
+
+#mainColumn .valueProp span { font-size: 70px; color: #EEEEEE; margin-right: -15px; }
+
+#mainColumn .valueProp p { padding: 0; margin: 0; }
+
+#mainColumn .valueProp .valueText { float: left; }
+
+#mainColumn .valueProp img { float: left; height: 250px; }
+
+#mainColumn .videoContainer { float: left; }
+
+.questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; margin: -100px 0 150px; }
+
 .videoContainer { width: 330px; height: 665px; background: url("../images/phoneFrame.png") no-repeat, 0 0; background-size: cover; position: relative; }
 
 .videoContainer video { position: absolute; border: 1px solid #E5E5E5; border-radius: 5px; top: 55px; left: 15px; width: 300px; height: 533px; }
+
+.post { padding: 40px 0; border-top: 1px solid #E5E5E5; }
 
 #heroHeader { background-image: url(../images/banner-home.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 90vh; margin: 0 auto; color: white; position: relative; position: relative; }
 

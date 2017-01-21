@@ -15,28 +15,28 @@
   }
 }
 #siteHeader.about{
-  @include fullImage;
   background: url("../images/banner-about.jpg");
+  @include fullImage;
 }
 #siteHeader.press{
-  @include fullImage;
   background: url("../images/banner-press.jpg");
+  @include fullImage;
 }
 #siteHeader.faq{
-  @include fullImage;
   background: url("../images/banner-faq.jpg");
+  @include fullImage;
 }
 #siteHeader.jobs{
-  @include fullImage;
   background: url("../images/banner-jobs.jpg");
+  @include fullImage;
 }
 #siteHeader.business{
-  @include fullImage;
   background: url("../images/banner-business.jpg");
+  @include fullImage;
 }
 #siteHeader.policyAndTerms{
-  @include fullImage;
   background: url("../images/banner-policyAndTerms.jpg");
+  @include fullImage;
 }
 
 #siteHeaderWrapper{

@@ -1,10 +1,14 @@
 html{
   background: white;
 }
-a{
-  text-decoration: none;
-}
 .container{
   @include outer-container;
-  padding: 0 40px; 
+  padding: 0 40px;
+}
+a:link, a:visited{
+  color: $turquoise;
+  @include transition15;
+}
+a:hover, a:active{
+  color: $coal;
 }

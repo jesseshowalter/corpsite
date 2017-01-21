@@ -4,11 +4,13 @@ html { box-sizing: border-box; }
 
 html { background: white; }
 
-a { text-decoration: none; }
-
 .container { max-width: 1200px; margin-left: auto; margin-right: auto; padding: 0 40px; }
 
 .container::after { clear: both; content: ""; display: block; }
+
+a:link, a:visited { color: #4FE3C0; transition: all 0.15s ease-out 0s; }
+
+a:hover, a:active { color: #727272; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
@@ -54,9 +56,21 @@ blockquote { font-weight: 100; font-style: italic; font-size: 1em; position: rel
 
 cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top: 10px; display: block; }
 
-#siteHeader { background-image: url(../images/banner-about.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 50vh; margin: 0 auto; position: relative; }
+#siteHeader { height: 50vh; margin: 0 auto; position: relative; }
 
 #siteHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -30px; left: 0; width: 100%; height: 247px; }
+
+#siteHeader.about { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-about.jpg"); }
+
+#siteHeader.press { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-press.jpg"); }
+
+#siteHeader.faq { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-faq.jpg"); }
+
+#siteHeader.jobs { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-jobs.jpg"); }
+
+#siteHeader.business { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-business.jpg"); }
+
+#siteHeader.policyAndTerms { background-size: cover; background-repeat: no-repeat; background-position: 0 0; background: url("../images/banner-policyAndTerms.jpg"); }
 
 #siteHeaderWrapper { overflow: hidden; width: 100%; height: 38vh; display: flex; text-align: center; align-items: center; justify-content: center; }
 
@@ -74,7 +88,7 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #navMenu li { display: inline; }
 
-#navMenu a { display: inline-block; color: white; text-transform: uppercase; padding: 10px 15px; margin-left: 10px; border-bottom: 2px solid transparent; transition: all 0.15s ease-out 0s; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+#navMenu a { display: inline-block; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 15px; margin-left: 10px; border-bottom: 2px solid transparent; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; transition: all 0.15s ease-out 0s; }
 
 #navMenu a:hover { border-bottom: 4px solid #4FE3C0; opacity: 0.9; }
 
@@ -83,6 +97,10 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 #navMenu .download { border: 2px solid #fff; border-radius: 1px; }
 
 #navMenu .download:hover { border: 2px solid #4FE3C0; background: #4FE3C0; opacity: 1s; }
+
+#footer { text-align: center; padding: 100px 0; }
+
+#siteMainContent { padding-top: 100px; padding-bottom: 100px; }
 
 .valuesListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: center; padding: 70px 0; }
 
@@ -102,14 +120,48 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 .featureStatement h2 { font-size: 1.999em; }
 
-#bannerIosAndroid { background: url("../images/banner-IosAndroid.jpg") no-repeat, 0 0; background-size: cover; height: 250px; color: white; text-align: center; padding: 50px 0 0; margin-top: 100px; border: none; position: relative; }
+#bannerIosAndroid { background: url("../images/banner-IosAndroid.jpg") no-repeat, 0 0; background-size: cover; height: 250px; color: white; text-align: center; padding: 50px 0 0; border: none; position: relative; }
 
 #bannerIosAndroid:before { background-image: url(../images/angleBottom.svg); background-size: cover; content: " "; position: absolute; top: -25px; left: 0; width: 100%; height: 100px; }
 
 #bannerIosAndroid h3 { font-size: 2.827em; }
 
-#heroHeader { background-image: url(../images/banner-home.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 90vh; margin: 0 auto; color: white; position: relative; }
+#sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 31.7615653177%; }
 
-#heroWrapper .videoContainer video { width: 300px; }
+#sideNavigation:last-child { margin-right: 0; }
+
+#sideNavigation a:link, #sideNavigation a:visited { color: #727272; padding: 10px 0; text-decoration: none; text-transform: uppercase; line-height: 3.5em; border-bottom: 4px solid transparent; }
+
+#sideNavigation a:hover, #sideNavigation a:active { color: #303030; border-bottom: 4px solid #4FE3C0; opacity: 0.9; }
+
+#sideNavigation a.sideNavActive { border-bottom: 4px solid #4FE3C0; font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; color: #303030; }
+
+#mainColumn { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; }
+
+#mainColumn:last-child { margin-right: 0; }
+
+#mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 60px 0; }
+
+#mainColumn .contentBlock h3 { margin: 60px 0; }
+
+#mainColumn .contentBlock:first-child { border: none; padding-top: 0; }
+
+#mainColumn .contentBlock:first-child h3 { margin-top: 10px; }
+
+#mainColumn .videoContainer { float: left; }
+
+#mainColumn .downloadButtons { text-align: center; margin-top: 300px; }
+
+#mainColumn .downloadBtn { overflow: auto; display: block; margin-top: 20px; }
+
+#mainColumn .downloadBtn img { width: 200px; }
+
+.videoContainer { width: 330px; height: 665px; background: url("../images/phoneFrame.png") no-repeat, 0 0; background-size: cover; position: relative; }
+
+.videoContainer video { position: absolute; border: 1px solid #E5E5E5; border-radius: 5px; top: 55px; left: 15px; width: 300px; height: 533px; }
+
+#heroHeader { background-image: url(../images/banner-home.jpg); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 90vh; margin: 0 auto; color: white; position: relative; position: relative; }
+
+#heroHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -30px; left: 0; width: 100%; height: 247px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,7 @@
   margin:0;
   padding: 20px 0;
   float:left;
-  transition: (all 0.15s ease-out 0s);
+  @include transition15;
 
   &:hover{
     opacity:0.8;
@@ -28,11 +28,12 @@
     display:inline-block;
     color: white;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 10px 15px;
     margin-left: 10px;
     border-bottom: 2px solid transparent;
-    transition: (all 0.15s ease-out 0s);
     font-family: $font-book;
+    @include transition15;
   }
   a:hover{
     border-bottom: 4px solid $turquoise;

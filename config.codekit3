@@ -67,6 +67,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/build\/images\/banner-business.jpg": {
+		"ft": 16384,
+		"iS": 112287,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-business.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/banner-faq.jpg": {
+		"ft": 16384,
+		"iS": 82942,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-faq.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/images\/banner-home.jpg": {
 		"ft": 16384,
 		"iS": 1660389,
@@ -82,6 +98,50 @@
 		"oAP": "\/build\/images\/banner-iosAndroid.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/build\/images\/banner-jobs.jpg": {
+		"ft": 16384,
+		"iS": 76750,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-jobs.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/banner-policyAndTerms.jpg": {
+		"ft": 16384,
+		"iS": 43501,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-policyAndTerms.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/banner-press.jpg": {
+		"ft": 16384,
+		"iS": 102844,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-press.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/btnAppStore.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/btnAppStore.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/btnPlayStore.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/btnPlayStore.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/build\/images\/featuredLogos.svg": {
 		"ft": 2097152,
@@ -109,12 +169,18 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/phoneFrame.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/build\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/index.html",
+		"oF": 0
+		},
+	"\/build\/press.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/press.html",
 		"oF": 0
 		},
 	"\/build\/styles\/main.css": {
@@ -2101,6 +2167,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/styles\/3-layout\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/3-layout\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/styles\/3-layout\/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2123,6 +2202,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/3-layout\/_siteHeader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/3-layout\/_siteMainContent.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/3-layout\/_siteMainContent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2166,6 +2258,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/styles\/4-modules\/_twoColumn.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/4-modules\/_twoColumn.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/styles\/4-modules\/_valuesList.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2175,6 +2280,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/4-modules\/_valuesList.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/4-modules\/_video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/4-modules\/_video.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -3,7 +3,10 @@ html{
 }
 .container{
   @include outer-container;
-  overflow: auto;
+
+  img{
+    max-width: 100%; // temp style, remove after
+  }
 }
 a:link, a:visited{
   color: $turquoise;

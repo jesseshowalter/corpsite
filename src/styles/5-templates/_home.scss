@@ -1,6 +1,15 @@
 #heroWrapper{
   position: relative;
+
   .videoContainer{
-    left: 50%;
+    left: 20%;
+  }
+
+}
+#siteFeatureShowcase{
+  background:url("../images/featureShowcaseSlideBg.jpg");
+  h2, p{
+    color: #FFF;
+    text-align: center;
   }
 }

@@ -159,6 +159,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/build\/images\/featureShowcaseSlide1.png": {
+		"ft": 32768,
+		"iS": 2259024,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureShowcaseSlide1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/featureShowcaseSlideBg.jpg": {
+		"ft": 16384,
+		"iS": 508981,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureShowcaseSlideBg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/images\/hobnobLogo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -284,6 +300,15 @@
 		"oA": 0,
 		"oAP": "\/build\/scripts\/app-min.js",
 		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/src\/scripts\/vendors\/jquery-3.1.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/scripts\/vendors\/jquery-3.1.1.min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},

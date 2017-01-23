@@ -4,19 +4,19 @@
 ///
 /// @type Bool
 
-$visual-grid: false !default;
+$visual-grid: true !default;
 
 /// Sets the visual grid color. Set with `!global` flag.
 ///
 /// @type Color
 
-$visual-grid-color: #eee !default;
+$visual-grid-color: rgba(red, 0.2) !default;
 
 /// Sets the `z-index` property of the visual grid. Can be `back` (behind content) or `front` (in front of content). Set with `!global` flag.
 ///
 /// @type String
 
-$visual-grid-index: back !default;
+$visual-grid-index: front !default;
 
 /// Sets the opacity property of the visual grid. Set with `!global` flag.
 ///

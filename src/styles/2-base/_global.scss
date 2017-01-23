@@ -3,7 +3,7 @@ html{
 }
 .container{
   @include outer-container;
-  padding: 0 40px;
+  overflow: auto;
 }
 a:link, a:visited{
   color: $turquoise;

@@ -1,23 +1,12 @@
 #bannerIosAndroid{
   background:url("../images/banner-IosAndroid.jpg") no-repeat, 0 0;
-  background-size: cover;;
+  background-size: cover;
   height: 250px;
   color: white;
   text-align: center;
   padding:50px 0 0;
   border: none;
   position: relative;
-
-  &:before{
-    background-image:url(../images/angleBottom.svg);
-    background-size: cover;
-    content: " ";
-    position: absolute;
-    top: -25px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-  }
 
   h3{
     font-size: 2.827em;

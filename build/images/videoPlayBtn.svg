@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="158px" viewBox="0 0 159 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>videoPlayBtn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.254472373 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="5.29791551%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#9BDF9E" offset="0%"></stop>
+            <stop stop-color="#5DEECB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" transform="translate(-1226.000000, -1613.000000)">
+            <g id="box2" transform="translate(-4.000000, 1165.000000)">
+                <g id="video1" filter="url(#filter-1)" transform="translate(870.000000, 258.000000)">
+                    <g id="videoPlayBtn" transform="translate(371.524549, 194.995244)">
+                        <ellipse id="Oval" fill-opacity="0.200000003" fill="#FFFFFF" cx="67.858365" cy="67.8244329" rx="67.858365" ry="67.8244329"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" cx="68.7065946" cy="68.6722383" rx="41.5632486" ry="41.5424651"></ellipse>
+                        <path d="M80.6760562,67.1382713 L62.9574831,56.1530883 C62.7689877,56.0541227 62.4862445,55.9551571 62.297749,55.9551571 C61.6380149,55.9551571 61.0725285,56.5489508 61.0725285,57.2417101 L61.0725285,57.2417101 L61.0725285,60.3096441 L61.0725285,61.2993002 L61.0725285,61.4972314 L61.0725285,75.8472452 L61.0725285,76.0451764 L61.0725285,77.925523 L61.0725285,80.1027665 C61.0725285,80.7955258 61.6380149,81.3893194 62.297749,81.3893194 C62.5804922,81.3893194 62.7689877,81.2903538 63.0517308,81.1913882 L80.7703039,70.2062053 C81.1472949,69.8103428 81.430038,69.3155148 81.430038,68.6227555 C81.3357903,68.0289618 81.1472949,67.5341337 80.6760562,67.1382713 L80.6760562,67.1382713 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

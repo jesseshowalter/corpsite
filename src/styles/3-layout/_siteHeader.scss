@@ -14,6 +14,13 @@
     height: 247px;
   }
 }
+#siteHeader.home{
+  background: url("../images/banner-home.jpg");
+  @include fullImage;
+  height: 90vh;
+  color: white;
+  position: relative;
+}
 #siteHeader.about{
   background: url("../images/banner-about.jpg");
   @include fullImage;

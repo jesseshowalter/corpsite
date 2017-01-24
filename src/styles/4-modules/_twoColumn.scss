@@ -19,7 +19,8 @@
     font-family: $font-bold;
     color: $mineShaft;
   }
-}
+} // end #sideNavigation
+
 
 #mainColumn{
   @include span-columns(8);
@@ -29,7 +30,7 @@
     border-top: 1px solid $gray;
     padding: 80px 0;
     h3{
-      margin:60px 0;
+      margin:60px 0 40px;
     }
   }
   .contentBlock:first-child{
@@ -38,9 +39,10 @@
 
     h3{
       margin-top:10px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid $gray;
     }
   }
-
   .downloadButtons{
     text-align: center;
     margin-top:300px;
@@ -59,11 +61,9 @@
     display: flex;
     margin-bottom: 60px;
 
-
     &:last-child{
       border: none;
     }
-
     span{
       font-size: 70px;
       color: #EEEEEE;
@@ -85,17 +85,50 @@
   .videoContainer{
     float: left;
   }
-
   .threeUp{
-    img{
+    div{
+      max-height: 320px;
+      overflow: hidden;
+      margin-bottom: 20px;
       @include span-columns(3 of 12);
     }
   }
-}
+  .questions{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+  }
+  .post{
+    padding: 20px 0 40px;
+    border-bottom: 1px solid $gray;
 
-.questions{
-  font-size: 1.5em;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0;
-}
+    &:first-of-type{
+      padding-top:0;
+    }
+  }
+  .olderPosts{
+    float: right;
+    &:after{
+      content:"⤍";
+      margin-left: 10px;
+    }
+  }
+
+  .review{
+
+    p{
+      margin:0;
+      line-height: 1.7em;
+    }
+    cite{
+      color: #9099A7;
+
+      &:before{
+        content: url(../images/stars.svg);
+        background-size: contain;
+        margin-right: 10px;
+      }
+    }
+  }
+} // end #mainColumn

@@ -213,11 +213,11 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 80px 0; }
 
-#mainColumn .contentBlock h3 { margin: 60px 0; }
+#mainColumn .contentBlock h3 { margin: 60px 0 40px; }
 
 #mainColumn .contentBlock:first-child { border: none; padding-top: 0; }
 
-#mainColumn .contentBlock:first-child h3 { margin-top: 10px; }
+#mainColumn .contentBlock:first-child h3 { margin-top: 10px; padding-bottom: 30px; border-bottom: 1px solid #E5E5E5; }
 
 #mainColumn .downloadButtons { text-align: center; margin-top: 300px; }
 
@@ -239,21 +239,29 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn .videoContainer { float: left; }
 
-#mainColumn .threeUp img { float: left; display: block; margin-right: 2.3576520234%; width: 23.2317609825%; }
+#mainColumn .threeUp div { max-height: 320px; overflow: hidden; margin-bottom: 20px; float: left; display: block; margin-right: 2.3576520234%; width: 23.2317609825%; }
 
-#mainColumn .threeUp img:last-child { margin-right: 0; }
+#mainColumn .threeUp div:last-child { margin-right: 0; }
 
-.questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; }
+#mainColumn .questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; }
+
+#mainColumn .post { padding: 20px 0 40px; border-bottom: 1px solid #E5E5E5; }
+
+#mainColumn .post:first-of-type { padding-top: 0; }
+
+#mainColumn .olderPosts { float: right; }
+
+#mainColumn .olderPosts:after { content: "⤍"; margin-left: 10px; }
+
+#mainColumn .review p { margin: 0; line-height: 1.7em; }
+
+#mainColumn .review cite { color: #9099A7; }
+
+#mainColumn .review cite:before { content: url(../images/stars.svg); background-size: contain; margin-right: 10px; }
 
 .videoContainer { width: 330px; height: 665px; background: url("../images/phoneFrame.png") no-repeat, 0 0; background-size: cover; position: relative; }
 
 .videoContainer video { position: absolute; border: 1px solid #E5E5E5; border-radius: 5px; top: 55px; left: 15px; width: 300px; height: 533px; }
-
-.post { padding: 40px 0; border-top: 1px solid #E5E5E5; }
-
-.olderPosts { float: right; }
-
-.olderPosts:after { content: "⤍"; margin-left: 10px; }
 
 #heroWrapper { padding-top: 75px; display: flex; justify-content: center; align-items: center; }
 

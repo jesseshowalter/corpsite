@@ -45,11 +45,83 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/build\/flyers\/flyer12.jpg": {
+		"ft": 16384,
+		"iS": 1628058,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer13.jpg": {
+		"ft": 16384,
+		"iS": 1836250,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer14.jpg": {
+		"ft": 16384,
+		"iS": 893817,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer15.jpg": {
+		"ft": 16384,
+		"iS": 1208760,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer16.jpg": {
+		"ft": 16384,
+		"iS": 1201648,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer16.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer17.jpg": {
+		"ft": 16384,
+		"iS": 1073446,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer17.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer18.jpg": {
+		"ft": 16384,
+		"iS": 1881263,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer18.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer19.jpg": {
+		"ft": 16384,
+		"iS": 1509396,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer19.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/flyers\/flyer2.jpg": {
 		"ft": 16384,
 		"iS": 1622745,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/flyers\/flyer20.jpg": {
+		"ft": 16384,
+		"iS": 1866627,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer20.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -106,86 +178,6 @@
 		"iS": 1569623,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer9.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9943.PNG": {
-		"ft": 32768,
-		"iS": 1628058,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9943.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9946.PNG": {
-		"ft": 32768,
-		"iS": 1836250,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9946.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9947.PNG": {
-		"ft": 32768,
-		"iS": 893817,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9947.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9948.PNG": {
-		"ft": 32768,
-		"iS": 1208760,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9948.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9949.PNG": {
-		"ft": 32768,
-		"iS": 1201648,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9949.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9950.PNG": {
-		"ft": 32768,
-		"iS": 1073446,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9950.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9953.PNG": {
-		"ft": 32768,
-		"iS": 1881263,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9953.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9954.PNG": {
-		"ft": 32768,
-		"iS": 1509396,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9954.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9955.PNG": {
-		"ft": 32768,
-		"iS": 1715216,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9955.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/IMG_9957.PNG": {
-		"ft": 32768,
-		"iS": 1866627,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/IMG_9957.png",
 		"oF": 0,
 		"opt": 0
 		},

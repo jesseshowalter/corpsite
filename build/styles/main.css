@@ -253,6 +253,8 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn .olderPosts:after { content: "⤍"; margin-left: 10px; }
 
+#mainColumn .review { margin-bottom: 40px; }
+
 #mainColumn .review p { margin: 0; line-height: 1.7em; }
 
 #mainColumn .review cite { color: #9099A7; }

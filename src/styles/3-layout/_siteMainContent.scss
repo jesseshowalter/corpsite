@@ -16,3 +16,16 @@
     height: 100px;
   }
 }
+
+.typeForm{
+  text-align: center;
+}
+
+.containerSmall{
+  max-width:760px;
+
+  h5{
+    font-family: $font-bold;
+    padding:40px 0 20px;
+  }
+}

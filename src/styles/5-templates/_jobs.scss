@@ -1,0 +1,82 @@
+// ------------------------------------------------
+// ------       The Jobs Section         ---------
+// ------------------------------------------------
+.backToLink{
+  text-decoration: none;
+  text-transform: uppercase;
+  &:before{
+    content:url(../images/arrow.svg);
+    margin-right: 15px;
+  }
+}
+
+.multiColumn{
+  padding: 40px 0;
+  border-bottom: 1px solid $gray;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+     -moz-column-count: 2; /* Firefox */
+          column-count: 2;
+  -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+     -moz-column-gap: 100px; /* Firefox */
+          column-gap: 100px;
+}
+
+.positionsBlock{
+  background: #f9f9f9;
+  padding: 40px 0;
+  margin: 40px 0;
+
+  h3{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.teamCategory{
+  overflow: auto;
+  padding: 80px 0 40px;
+  border-bottom: 1px solid $gray;
+  &:last-child{
+    border: none;
+  }
+  .team{
+    @include span-columns(4);
+    margin: 0;
+  }
+  .jobDetails{
+    @include span-columns(8);
+  }
+  .jobPost{
+    margin-bottom: 60px;
+
+    h5{
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.jobListBlock{
+  border-bottom: 1px solid $gray;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 70px 0;
+  &:last-child{
+    border: none;
+  }
+
+  h3{
+    @include span-columns(4);
+    padding: 0;
+    margin: 0;
+  }
+
+  h4{
+    margin-top: 80px;
+  }
+  .jobRequirments{
+    @include span-columns(8);
+  }
+}

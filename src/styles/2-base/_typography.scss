@@ -81,3 +81,14 @@ cite{
   margin-top:10px;
   display: block;
 }
+
+li{
+  color: $coal;
+  list-style: circle;
+  margin-bottom:0.5em;
+  line-height: 2em;
+}
+
+em{
+  font-family: $font-medium;
+}

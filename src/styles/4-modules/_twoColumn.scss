@@ -109,9 +109,12 @@
   }
   .olderPosts{
     float: right;
+    margin-top:40px;
     &:after{
-      content:"⤍";
+      content:url(../images/arrow.svg);
       margin-left: 10px;
+      transform: rotate(180deg);
+      position:absolute;
     }
   }
 

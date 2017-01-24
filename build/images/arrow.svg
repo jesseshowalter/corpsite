@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Jobs---Position" transform="translate(-426.000000, -766.000000)" stroke="#4FE3C0">
+            <g id="back-Link" transform="translate(426.000000, 754.000000)">
+                <g id="arrow" transform="translate(7.500000, 18.000000) rotate(-90.000000) translate(-7.500000, -18.000000) translate(2.000000, 11.000000)">
+                    <path d="M5.5,0.5 L5.5,13.5" id="Shape"></path>
+                    <polyline id="Shape" points="11 6 5.5 0.5 0 6"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

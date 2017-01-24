@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
@@ -125,11 +124,13 @@ blockquote { font-weight: 100; font-style: italic; font-size: 1em; position: rel
 
 cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top: 10px; display: block; }
 
+li { color: #727272; list-style: circle; margin-bottom: 0.5em; line-height: 2em; }
+
+em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
 #siteHeader { height: 50vh; margin: 0 auto; position: relative; }
 
 #siteHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -25px; left: 0; width: 100%; height: 247px; }
-
-#siteHeader.home { background: url("../images/banner-home.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 80vh; min-height: 1100px; color: white; position: relative; }
 
 #siteHeader.about { background: url("../images/banner-about.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
@@ -175,6 +176,12 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #siteMainContent:after { background-image: url(../images/angleBottom.svg); background-size: cover; content: " "; position: absolute; bottom: -55px; z-index: 1; left: 0; width: 100%; height: 100px; }
 
+.typeForm { text-align: center; }
+
+.containerSmall { max-width: 760px; }
+
+.containerSmall h5 { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; padding: 40px 0 20px; }
+
 .valuesListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: center; padding: 70px 0; }
 
 .valuesListBlock:last-child { border: none; }
@@ -188,6 +195,8 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 .valuesListBlock p { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; padding: 0; margin: 0; }
 
 .valuesListBlock p:last-child { margin-right: 0; }
+
+.valuesListBlock li { list-style: circle; margin-bottom: 10px; }
 
 .featureStatement { text-align: center; max-width: 800px; margin: 0 auto 60px; }
 
@@ -249,9 +258,9 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #mainColumn .post:first-of-type { padding-top: 0; }
 
-#mainColumn .olderPosts { float: right; }
+#mainColumn .olderPosts { float: right; margin-top: 40px; }
 
-#mainColumn .olderPosts:after { content: "⤍"; margin-left: 10px; }
+#mainColumn .olderPosts:after { content: url(../images/arrow.svg); margin-left: 10px; transform: rotate(180deg); position: absolute; }
 
 #mainColumn .review { margin-bottom: 40px; }
 
@@ -281,6 +290,8 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 
 #heroWrapper .featuredLogos { margin-top: 80px; width: 70%; }
 
+#siteHeader.home { background: url("../images/banner-home.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 80vh; min-height: 1100px; color: white; position: relative; }
+
 #discoverHobnob { position: relative; height: 900px; overflow: visible; }
 
 #discoverHobnob .discoverTagline { position: absolute; width: 500px; top: 0; left: -100px; }
@@ -304,5 +315,45 @@ cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top
 #siteFeatureShowcase { padding: 40px 0 80px; background: url("../images/featureShowcaseSlideBg.jpg"); }
 
 #siteFeatureShowcase h2, #siteFeatureShowcase p { color: #FFF; text-align: center; }
+
+.backToLink { text-decoration: none; text-transform: uppercase; }
+
+.backToLink:before { content: url(../images/arrow.svg); margin-right: 15px; }
+
+.multiColumn { padding: 40px 0; border-bottom: 1px solid #E5E5E5; -webkit-column-count: 2; /* Chrome, Safari, Opera */ -moz-column-count: 2; /* Firefox */ column-count: 2; -webkit-column-gap: 100px; /* Chrome, Safari, Opera */ -moz-column-gap: 100px; /* Firefox */ column-gap: 100px; }
+
+.positionsBlock { background: #f9f9f9; padding: 40px 0; margin: 40px 0; }
+
+.positionsBlock h3 { text-align: center; margin-bottom: 40px; }
+
+.teamCategory { overflow: auto; padding: 80px 0 40px; border-bottom: 1px solid #E5E5E5; }
+
+.teamCategory:last-child { border: none; }
+
+.teamCategory .team { float: left; display: block; margin-right: 2.3576520234%; width: 31.7615653177%; margin: 0; }
+
+.teamCategory .team:last-child { margin-right: 0; }
+
+.teamCategory .jobDetails { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; }
+
+.teamCategory .jobDetails:last-child { margin-right: 0; }
+
+.teamCategory .jobPost { margin-bottom: 60px; }
+
+.teamCategory .jobPost h5 { font-weight: bold; font-size: 1.2em; margin-bottom: 10px; }
+
+.jobListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: flex-start; padding: 70px 0; }
+
+.jobListBlock:last-child { border: none; }
+
+.jobListBlock h3 { float: left; display: block; margin-right: 2.3576520234%; width: 31.7615653177%; padding: 0; margin: 0; }
+
+.jobListBlock h3:last-child { margin-right: 0; }
+
+.jobListBlock h4 { margin-top: 80px; }
+
+.jobListBlock .jobRequirments { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; }
+
+.jobListBlock .jobRequirments:last-child { margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

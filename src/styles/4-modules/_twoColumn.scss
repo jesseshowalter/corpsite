@@ -85,6 +85,12 @@
   .videoContainer{
     float: left;
   }
+
+  .threeUp{
+    img{
+      @include span-columns(3 of 12);
+    }
+  }
 }
 
 .questions{

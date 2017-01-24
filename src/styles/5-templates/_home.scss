@@ -1,13 +1,108 @@
 #heroWrapper{
-  position: relative;
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .videoContainer{
-    left: 20%;
+  .heroVideo{
+    @include span-columns(6);
   }
 
+  .videoContainer{
+    width: 387px;
+    height: 780px;
+    background: url("../images/phoneFrame.png") no-repeat, 0 0;
+    background-size: cover;
+    position: relative;
+    video{
+      position: absolute;
+      border:1px solid $gray;
+      border-radius: 5px;
+      top: 65px;
+      left: 19px;
+      width: 350px;
+      height:621px;
+    }
+  }
+
+  .cta{
+    @include span-columns(6);
+    text-align: center;
+  }
+
+  .featuredLogos{
+    margin-top: 80px;
+    width: 70%;
+  }
 }
+
+
+// ------------------------------------------------
+// ------       The Discover Section         ---------
+// ------------------------------------------------
+#discoverHobnob{
+  position: relative;
+  height: 900px;
+  overflow: visible;
+
+  .discoverTagline{
+    position:absolute;
+    width: 500px;
+    top: 0;
+    left: -100px;
+    h2{
+      color: $shamrock;
+    }
+  }
+  .discoverVideo1, .discoverVideo2{
+    width: 800px;
+  }
+  .discoverVideo1:after, .discoverVideo2:after{
+    @include transition15;
+    background: url("../images/btnVideoPlay.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .discoverVideo1:hover, .discoverVideo2:hover{
+    transform: scale(.985);
+  }
+  .discoverVideo1:hover:after, .discoverVideo2:hover:after{
+    transform: scale(1.065);
+    opacity:0.8;
+  }
+  .discoverVideo1{
+    position: absolute;
+    top: 0;
+    right: -150px;
+  }
+  .discoverVideo2{
+    position: absolute;
+    bottom:0px;
+    left:-150px;
+  }
+  .discoverReviews{
+    position: absolute;
+    bottom: 50px;
+    right: -100px;
+    width: 550px;
+  }
+}
+
+// ------------------------------------------------
+// ------   Features Showcase Slider Area    ------
+// ------------------------------------------------
 #siteFeatureShowcase{
+  padding: 40px 0 80px;
   background:url("../images/featureShowcaseSlideBg.jpg");
+
   h2, p{
     color: #FFF;
     text-align: center;

@@ -3,6 +3,7 @@ html{
 }
 .container{
   @include outer-container;
+  overflow: auto;
 
   img{
     max-width: 100%; // temp style, remove after
@@ -14,4 +15,29 @@ a:link, a:visited{
 }
 a:hover, a:active{
   color: $coal;
+}
+a.btn{
+  display: inline-block;
+  width: 245px;
+  height: 70px;
+  text-indent:-9999px;
+  margin:0 10px;
+}
+a.btn:hover{
+  transform: scale(1.015);
+}
+a.btnApple{
+  background: url("../images/btnAppStoreGreen.svg") no-repeat;
+  @include fullImage;
+}
+a.btnGoogle{
+  background: url("../images/btnPlayStoreGreen.svg") no-repeat;
+  @include fullImage;
+}
+a.linkOut:after{
+  content: url(../images/linkOUt.svg);
+  margin-left: 10px;
+}
+.clearFix{
+  clear: both;
 }

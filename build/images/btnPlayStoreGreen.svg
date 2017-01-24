@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="69px" viewBox="0 0 242 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>btnPlayStoreGreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="242" height="69" rx="6"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="242" height="69" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" transform="translate(-1243.000000, -514.000000)">
+            <g id="box1">
+                <g id="right" transform="translate(981.000000, 514.000000)">
+                    <g id="downloadbuttons">
+                        <g id="btnPlayStoreGreen" transform="translate(262.000000, 0.000000)">
+                            <use id="Rectangle-2-Copy" stroke="#50E3C2" mask="url(#mask-2)" stroke-width="6" fill="#4FE3C0" xlink:href="#path-1"></use>
+                            <g id="Group-10" transform="translate(15.000000, 16.000000)" fill="#FFFFFF">
+                                <path d="M1.62322275,1.058 C1.14074475,1.556 0.86268111,2.33 0.86268111,3.3335 L0.86268111,39.119 C0.86268111,40.1225 1.1422478,40.8965 1.62322275,41.3945 L1.74196344,41.504 L22.0721733,21.458 L22.0721733,20.984 L1.73595125,0.9395 L1.62322275,1.058 Z" id="path64" opacity="0.300000012"></path>
+                                <path d="M28.8418957,28.1435 L22.0781855,21.458 L22.0781855,20.984 L28.849411,14.3 L28.9997156,14.387 L37.0259851,18.887 C39.3166283,20.165 39.3166283,22.2695 37.0259851,23.555 L28.9997156,28.055 L28.8418957,28.1435 Z" id="path78" opacity="0.5"></path>
+                                <path d="M29.0012187,28.0565 L22.0721733,21.221 L1.62322275,41.3945 C2.38376439,42.1835 3.62528097,42.278 5.03513879,41.489 L29.0012187,28.0565" id="path88" opacity="0.699999988"></path>
+                                <path d="M29.0012187,14.387 L5.04265403,0.95 C3.63129316,0.1685 2.39127962,0.2645 1.63073798,1.0535 L22.0721733,21.2225 L29.0012187,14.387 Z" id="path104"></path>
+                            </g>
+                            <text id="Google-Play" font-family="GothamSSm-Medium, Gotham SSm" font-size="20" font-weight="400" fill="#FFFFFF">
+                                <tspan x="68" y="43">Google Play</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

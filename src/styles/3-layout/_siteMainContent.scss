@@ -1,7 +1,8 @@
 #siteMainContent{
-  padding-top:100px;
+  padding-top:50px;
   padding-bottom:100px;
   position: relative;
+  background: white;
 
   &:after{
     background-image:url(../images/angleBottom.svg);

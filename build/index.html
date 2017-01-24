@@ -10,6 +10,7 @@
 <body>
   <!-- Home Page Header - styles found in templates/_home.scss -->
   <section id="siteHeader" class="home">
+
     <nav id="mainNav" class="container">
       <a id="brand" href="/">
         <h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1>
@@ -22,39 +23,64 @@
         <li><a class="download" href="#">Download</a></li>
       </ul> <!-- navMenu -->
     </nav> <!-- mainNav -->
+
     <div id="heroWrapper" class="container">
-      <div class="videoContainer">
-        <video autoplay loop src="video/hobnobDemoVideo.mp4"></video>
+      <div class="heroVideo">
+        <div class="videoContainer">
+          <video autoplay loop src="video/hobnobDemoVideo.mp4"></video>
+        </div>
       </div>
       <div class="cta">
-        <a href="" class="btn">App Store</a>
-        <a href="" class="btn">Google Play</a>
-        <img src="images/featuredLogos.svg" alt="Hobnob has been featured on these channels">
+        <a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple">App Store</a>
+        <a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle">Google Play</a>
+        <img class="featuredLogos" src="images/featuredLogos.png" alt="Hobnob has been featured on these channels">
       </div>
     </div>
+
   </section>
   <!-- Home Page Header -->
 
   <!-- Main Content Area -->
   <section id="siteMainContent">
-    <div class="container">
-      <h2>Hobnob is... Actually Social.</h2>
-      <p>We help you create real life experiences with the people you care about most. Hobnob takes all the hassle out of organizing people for any type of occasion, and streamlines your communication before, during, and after your events.</p>
-      <img src="images/video1.jpg" alt="">
-      <img src="images/video2.jpg" alt="">
-      <img src="images/reviewCollage.jpg" alt="">
+    <div id="discoverHobnob" class="container">
+      <div class="discoverTagline">
+        <h2>Hobnob is... Actually Social.</h2>
+        <p>We help you create real life experiences with the people you care about most. Hobnob takes all the hassle out of organizing people for any type of occasion, and streamlines your communication before, during, and after your events.</p>
+      </div>
+      <a href="#" class="discoverVideo1"><img src="images/video1.png" alt=""></a>
+      <a href="#" class="discoverVideo2"><img src="images/video2.png" alt=""></a>
+      <img class="discoverReviews" src="images/reviewCollage.jpg" alt="">
     </div>
+    <div class="clearFix"></div>
   </section>
   <!-- Main Content Area -->
 
   <!--siteFeatureShowcase -->
   <section id="siteFeatureShowcase">
     <div class="container">
-      <article class="featureShowcaseSlide">
-        <h2>Chat</h2>
-        <p>No more messy group texts, Keep everyone in the know with eay chat</p>
-        <img src="images/featureShowcaseSlide1.png" alt="">
-      </article>
+      <div class="slider">
+        <div>
+          <article class="featureShowcaseSlide">
+            <h2>Chat</h2>
+            <p>No more messy group texts, Keep everyone in the know with eay chat</p>
+            <img src="images/featureShowcaseSlide1.png" alt="">
+          </article>
+        </div>
+        <div>
+          <article class="featureShowcaseSlide">
+            <h2>RSVP</h2>
+            <p>No more messy group texts, Keep everyone in the know with eay chat</p>
+            <img src="images/featureShowcaseSlide1.png" alt="">
+          </article>
+        </div>
+        <div>
+          <article class="featureShowcaseSlide">
+            <h2>Share photos</h2>
+            <p>No more messy group texts, Keep everyone in the know with eay chat</p>
+            <img src="images/featureShowcaseSlide1.png" alt="">
+          </article>
+        </div>
+      </div> <!-- slider -->
     </div>
   </section>
   <!-- siteFeatureShowcase -->
@@ -66,4 +92,5 @@
   </section>
   <!--Footer -->
 </body>
+<script src="scripts/app-min.js"></script>
 </html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="69px" viewBox="0 0 242 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>btnAppStoreGreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="242" height="69" rx="6"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="242" height="69" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" transform="translate(-981.000000, -514.000000)">
+            <g id="box1">
+                <g id="right" transform="translate(981.000000, 514.000000)">
+                    <g id="downloadbuttons">
+                        <g id="btnAppStoreGreen">
+                            <use id="Rectangle-2" stroke="#50E3C2" mask="url(#mask-2)" stroke-width="6" fill="#4FE3C0" xlink:href="#path-1"></use>
+                            <text id="App-Store-Copy" font-family="GothamSSm-Medium, Gotham SSm" font-size="20" font-weight="400" fill="#FFFFFF">
+                                <tspan x="90" y="43">App Store</tspan>
+                            </text>
+                            <path d="M56.5995125,34.7831 C56.551415,29.41835 61.0013351,26.80835 61.2048477,26.68685 C58.6845389,23.01935 54.7782708,22.51835 53.4055383,22.4786 C50.1248382,22.13405 46.9424374,24.4376 45.2710494,24.4376 C43.5665944,24.4376 40.9929276,22.5119 38.2192051,22.5686 C34.6497698,22.62335 31.3106012,24.6857 29.4792891,27.88835 C25.6997278,34.41845 28.5185416,44.01455 32.1396818,49.29275 C33.9508531,51.8795 36.0675938,54.76415 38.8380095,54.66275 C41.5483033,54.55265 42.5607556,52.93805 45.8316858,52.93805 C49.0722546,52.93805 50.0230819,54.6626 52.8485091,54.596 C55.7573555,54.55295 57.5886676,52.001 59.3367109,49.391 C61.4301544,46.4315 62.2706581,43.5104 62.304176,43.3607 C62.2374408,43.33895 56.6566283,41.21345 56.6001137,34.78325 L56.5995125,34.7831 Z" id="Path" fill="#FFFFFF"></path>
+                            <path d="M51.2621936,19.0067 C52.720149,17.1872 53.7174204,14.7122 53.4405592,12.2003 C51.3307326,12.2936 48.6919838,13.6568 47.1725538,15.43625 C45.8285295,17.0042 44.6275951,19.5743 44.9375234,21.99125 C47.307828,22.16765 49.7412607,20.7977 51.2623439,19.0067 L51.2621936,19.0067 Z" id="Path" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

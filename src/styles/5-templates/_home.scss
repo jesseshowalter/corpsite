@@ -42,10 +42,18 @@
 #siteHeader.home{
   background: url("../images/banner-home.jpg");
   @include fullImage;
-  height: 80vh;
-  min-height:1100px;
+  height: 1000px;
   color: white;
   position: relative;
+  @media (max-width: $breakpoint-laptop) {
+    height: 700px;
+  }
+  @media (max-width: $breakpoint-tablet) {
+
+  }
+  @media (max-width: $breakpoint-mobile) {
+
+  }
 }
 
 

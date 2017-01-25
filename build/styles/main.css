@@ -151,9 +151,23 @@ li { color: #727272; list-style: circle; margin-bottom: 0.5em; line-height: 2em;
 
 em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
-#siteHeader { height: 50vh; margin: 0 auto; position: relative; }
+#siteHeader { height: 650px; margin: 0 auto; position: relative; }
+
+@media (max-width: 768px) { #siteHeader { height: 400px; } }
+
+@media (max-width: 400px) { #siteHeader { height: 225px; } }
 
 #siteHeader:after { background-image: url(../images/angleTop.svg); background-size: cover; content: " "; position: absolute; bottom: -25px; left: 0; width: 100%; height: 247px; }
+
+#siteHeaderWrapper { overflow: hidden; width: 100%; height: 500px; display: flex; text-align: center; align-items: center; justify-content: center; }
+
+@media (max-width: 768px) { #siteHeaderWrapper { height: 340px; } }
+
+@media (max-width: 400px) { #siteHeaderWrapper { height: 150px; } }
+
+#siteHeaderWrapper h1 { font-weight: bold; color: white; }
+
+@media (max-width: 400px) { #siteHeaderWrapper h1 { font-size: 2em; } }
 
 #siteHeader.about { background: url("../images/banner-about.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
@@ -167,19 +181,17 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #siteHeader.policyAndTerms { background: url("../images/banner-policyAndTerms.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
-#siteHeaderWrapper { overflow: hidden; width: 100%; height: 38vh; display: flex; text-align: center; align-items: center; justify-content: center; }
-
-#siteHeaderWrapper h1 { font-weight: bold; color: white; }
-
 #mainNav { overflow: auto; padding-top: 20px; max-width: 1200px; margin: 0 auto; }
 
-@media (max-width: 1200px) { #mainNav { width: 100%; padding-left: 40px; padding-right: 40px; } }
+@media (max-width: 1200px) { #mainNav { width: 100%; padding-left: 20px; padding-right: 20px; } }
 
 #header-nav-toggle { color: #fff; font-size: 2em; position: absolute; top: .5em; right: .5em; z-index: 1; cursor: pointer; }
 
 @media (max-width: 768px) { #header-nav-toggle { display: block; } }
 
 #brand { margin: 0; padding: 20px 0; float: left; transition: all 0.15s ease-out 0s; }
+
+@media (max-width: 768px) { #brand { margin: 0; padding: 0; width: 100px; } }
 
 #brand:hover { opacity: 0.8; }
 
@@ -204,6 +216,8 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 #footer { text-align: center; padding: 100px 0; }
 
 #siteMainContent { padding-top: 50px; padding-bottom: 100px; position: relative; background: white; }
+
+@media (max-width: 768px) { #siteMainContent { padding-top: 20px; padding-bottom: 50px; } }
 
 #siteMainContent:after { background-image: url(../images/angleBottom.svg); background-size: cover; content: " "; position: absolute; bottom: -55px; z-index: 1; left: 0; width: 100%; height: 100px; }
 
@@ -245,8 +259,10 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #sideNavigation:last-child { margin-right: 0; }
 
-@media (max-width: 950px) { #sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 100%; order: 2; }
+@media (max-width: 950px) { #sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 100%; order: 2; padding: 20px 0 60px; }
   #sideNavigation:last-child { margin-right: 0; } }
+
+@media (max-width: 768px) { #sideNavigation { text-align: center; border: 1px solid #E5E5E5; font-size: 1.1em; padding: 3em 1em; } }
 
 #sideNavigation li { list-style: none; }
 
@@ -265,6 +281,8 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 80px 0 0; }
 
+@media (max-width: 768px) { #mainColumn .contentBlock { padding: 0; } }
+
 #mainColumn .contentBlock h3 { margin: 60px 0 40px; }
 
 #mainColumn .contentBlock:first-child { border: none; padding-top: 0; }
@@ -279,6 +297,8 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn .valueProp { overflow: auto; display: flex; margin-bottom: 60px; }
 
+@media (max-width: 768px) { #mainColumn .valueProp { margin-bottom: 20px; } }
+
 #mainColumn .valueProp:last-child { border: none; }
 
 #mainColumn .valueProp span { font-size: 70px; color: #EEEEEE; margin-right: -15px; }
@@ -289,11 +309,9 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn .valueProp img { float: left; height: 250px; }
 
+@media (max-width: 768px) { #mainColumn .valueProp img { display: none; } }
+
 #mainColumn .videoContainer { float: left; }
-
-#mainColumn .threeUp div { max-height: 320px; overflow: hidden; margin-bottom: 20px; float: left; display: block; margin-right: 2.3576520234%; width: 23.2317609825%; }
-
-#mainColumn .threeUp div:last-child { margin-right: 0; }
 
 #mainColumn .questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; margin-bottom: 40px; }
 
@@ -307,6 +325,8 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn .olderPosts { float: right; margin-top: 40px; }
 
+@media (max-width: 950px) { #mainColumn .olderPosts { text-align: center; float: none; display: block; margin: 0 0 50px; } }
+
 #mainColumn .olderPosts:after { content: url(../images/arrow.svg); margin-left: 10px; transform: rotate(180deg); position: absolute; }
 
 #mainColumn .review { margin-bottom: 40px; }
@@ -316,6 +336,12 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 #mainColumn .review cite { color: #9099A7; }
 
 #mainColumn .review cite:before { content: url(../images/stars.svg); background-size: contain; margin-right: 10px; }
+
+#mainColumn .howWeDo { padding-bottom: 80px; }
+
+@media (max-width: 768px) { #mainColumn .howWeDo { display: none; } }
+
+@media (max-width: 768px) { #mainColumn .threeSteps { border-top: none; } }
 
 .videoContainer { width: 330px; height: 665px; background: url("../images/phoneFrame.png") no-repeat, 0 0; background-size: cover; position: relative; }
 
@@ -337,7 +363,9 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #heroWrapper .featuredLogos { margin-top: 80px; width: 70%; }
 
-#siteHeader.home { background: url("../images/banner-home.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 80vh; min-height: 1100px; color: white; position: relative; }
+#siteHeader.home { background: url("../images/banner-home.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 1000px; color: white; position: relative; }
+
+@media (max-width: 950px) { #siteHeader.home { height: 700px; } }
 
 #discoverHobnob { position: relative; height: 900px; overflow: visible; }
 

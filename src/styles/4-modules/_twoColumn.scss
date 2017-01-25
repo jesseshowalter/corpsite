@@ -11,7 +11,14 @@
   @media (max-width: $breakpoint-laptop) {
 		@include span-columns(12);
     order: 2;
+    padding: 20px 0 60px;
 	}
+  @media (max-width: $breakpoint-tablet) {
+    text-align: center;
+    border: 1px solid $gray;
+    font-size: 1.1em;
+    padding: 3em 1em;
+  }
 
   li{
     list-style: none;
@@ -49,6 +56,9 @@
     overflow: auto;
     border-top: 1px solid $gray;
     padding: 80px 0 0;
+    @media (max-width: $breakpoint-tablet) {
+      padding:0;
+    }
     h3{
       margin:60px 0 40px;
     }
@@ -80,6 +90,9 @@
     overflow: auto;
     display: flex;
     margin-bottom: 60px;
+    @media (max-width: $breakpoint-tablet) {
+      margin-bottom: 20px;
+    }
 
     &:last-child{
       border: none;
@@ -99,20 +112,30 @@
     img{
       float: left;
       height: 250px;
+      @media (max-width: $breakpoint-tablet) {
+        display:none;
+      }
     }
   }
 
   .videoContainer{
     float: left;
   }
-  .threeUp{
-    div{
-      max-height: 320px;
-      overflow: hidden;
-      margin-bottom: 20px;
-      @include span-columns(3 of 12);
-    }
-  }
+  // .threeUp{
+  //   div{
+  //     max-height: 320px;
+  //     overflow: hidden;
+  //     margin-bottom: 20px;
+  //     @include span-columns(3 of 12);
+  //     @media (max-width: $breakpoint-tablet) {
+  //       width:30.5%;
+  //     }
+  //     @media (max-width: $breakpoint-mobile) {
+  //       width:46%;
+  //     }
+  //   }
+  // }
+
   .questions{
     font-size: 1.5em;
     text-transform: uppercase;
@@ -139,6 +162,12 @@
   .olderPosts{
     float: right;
     margin-top:40px;
+    @media (max-width: $breakpoint-laptop) {
+      text-align: center;
+      float: none;
+      display: block;
+      margin:0 0 50px;
+    }
     &:after{
       content:url(../images/arrow.svg);
       margin-left: 10px;
@@ -162,6 +191,18 @@
         background-size: contain;
         margin-right: 10px;
       }
+    }
+  }
+
+  .howWeDo{
+    padding-bottom: 80px;
+    @media (max-width: $breakpoint-tablet) {
+      display: none;
+    }
+  }
+  .threeSteps{
+    @media (max-width: $breakpoint-tablet) {
+      border-top:none;
     }
   }
 } // end #mainColumn

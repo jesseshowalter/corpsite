@@ -5,8 +5,8 @@
   margin:0 auto;
   @media (max-width: $breakpoint-desktop) {
     width: 100%;
-    padding-left:40px;
-    padding-right:40px;
+    padding-left:20px;
+    padding-right:20px;
   }
 }
 #header-nav-toggle {
@@ -27,6 +27,11 @@
   padding: 20px 0;
   float:left;
   @include transition15;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
 
   &:hover{
     opacity:0.8;

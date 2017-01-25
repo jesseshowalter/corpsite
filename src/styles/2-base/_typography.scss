@@ -44,11 +44,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-p {margin-bottom: 1.3em; color: $coal; line-height: 2;}
+p {
+  margin-bottom: 1.3em;
+  color: $coal;
+  line-height: 2;
+}
 
 h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
-  line-height: 1.6;
+  line-height: 1.65;
   text-transform: uppercase;
   font-family: $font-medium;
 }
@@ -86,6 +90,9 @@ h4 {
   @media (max-width: $breakpoint-tablet) {
     font-size: 1.2em;
   }
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 1em;
+  }
 }
 h5 {
   font-size: 1.214em;
@@ -94,9 +101,7 @@ h5 {
   }
 }
 
-small, .font_small {font-size: 0.707em;}
-
-blockquote{
+blockquote {
   font-weight: 100;
   font-style: italic;
   font-size: 1em;
@@ -107,7 +112,7 @@ blockquote{
   margin: 20px 0;
   color: $coal;
 }
-cite{
+cite {
   font-weight: 300;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -115,14 +120,16 @@ cite{
   display: block;
 }
 
-li{
+li {
   color: $coal;
   list-style: circle;
   list-style-position: inside;
   margin-bottom:0.5em;
   line-height: 2em;
 }
-
-em{
+em {
   font-family: $font-medium;
+}
+strong {
+  font-family: $font-bold;
 }

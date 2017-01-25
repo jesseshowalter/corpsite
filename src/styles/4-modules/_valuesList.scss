@@ -4,23 +4,33 @@
   display: flex;
   align-items: center;
   padding: 70px 0;
+  @media (max-width: $breakpoint-mobile) {
+    display: block;
+    padding: 20px 0 50px;
+  }
   &:last-child{
     border: none;
-  }
-  h3{
-    @include span-columns(4);
-    padding: 0;
-    margin: 0;
-  }
-  span{
-    font-size: 70px;
-    color: #EEEEEE;
-    margin-right:-15px;
   }
   p{
     @include span-columns(8);
     padding: 0;
     margin: 0;
+    @media (max-width: $breakpoint-mobile) {
+      @include span-columns(12);
+    }
+  }
+  h3{
+    @include span-columns(4);
+    padding: 0;
+    margin: 0;
+    @media (max-width: $breakpoint-mobile) {
+      @include span-columns(12);
+    }
+  }
+  span{
+    font-size: 70px;
+    color: #EEEEEE;
+    margin-right:-15px;
   }
   li{
     list-style: circle;

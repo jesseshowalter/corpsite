@@ -315,6 +315,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/build\/images\/btnAppStoreGreen.png": {
+		"ft": 32768,
+		"iS": 13961,
+		"oA": 0,
+		"oAP": "\/build\/images\/btnAppStoreGreen.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/images\/btnAppStoreGreen.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -334,6 +342,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/build\/images\/btnPlayStoreGreen.png": {
+		"ft": 32768,
+		"iS": 14695,
+		"oA": 0,
+		"oAP": "\/build\/images\/btnPlayStoreGreen.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/build\/images\/btnPlayStoreGreen.svg": {
 		"ft": 2097152,

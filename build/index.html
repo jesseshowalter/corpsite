@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="styles/main.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
   <!-- Home Page Header - styles found in templates/_home.scss -->
@@ -21,6 +25,7 @@
         <li><a href="faq.html">FAQ</a></li>
         <li><a class="download" href="#">Download</a></li>
       </ul> <!-- navMenu -->
+      <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
     </nav> <!-- mainNav -->
 
     <div id="heroWrapper" class="container">
@@ -30,8 +35,8 @@
         </div>
       </div>
       <div class="cta">
-        <a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple">App Store</a>
-        <a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle">Google Play</a>
+        <a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a>
+        <a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a>
         <img class="featuredLogos" src="images/featuredLogos.png" alt="Hobnob has been featured on these channels">
       </div>
     </div>

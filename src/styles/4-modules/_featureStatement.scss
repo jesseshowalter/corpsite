@@ -2,8 +2,7 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto 60px;
-  // 
-  // h2{
-  //   font-size: 1.999em;
-  // }
+  @media (max-width: $breakpoint-tablet) {
+    margin-bottom: 20px;
+  }
 }

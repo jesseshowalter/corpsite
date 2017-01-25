@@ -6,11 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hobnob Press and Media</title>
   <link rel="stylesheet" href="styles/main.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
   <section id="siteHeader" class="press">
-    <nav id="mainNav" class="container">
+    <nav id="mainNav">
       <a id="brand" href="index.html">
         <h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1>
       </a>
@@ -21,6 +25,7 @@
         <li><a href="faq.html">FAQ</a></li>
         <li><a class="download" href="#">Download</a></li>
       </ul> <!-- navMenu -->
+      <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
     </nav> <!-- mainNav -->
     <div id="siteHeaderWrapper" class="container">
       <h1>Press</h1>
@@ -39,11 +44,12 @@
           <li><a href="javascript:void(0)" class="vertical-tab" rel="tab4">What Our Users Are Saying</a></li>
           <li><a class="linkOut" href="https://www.dropbox.com/sh/9j5gzrmdfeqd65z/AABz0-_OYYL5WxWdgUFxUE-4a?dl=0" target="_blank">Download Press Kit</a></li>
         </ul>
+        <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
       </aside>
 
       <div id="mainColumn">
         <div id="tab1" class="vertical-tab-content">
-          <article class="contentBlock">
+          <article class="contentBlock howWeDo">
             <h3>How do we do this?</h3>
             <div class="videoContainer">
               <video autoplay loop src="video/hobnobDemoVideo.mp4"></video>
@@ -53,7 +59,7 @@
               <a class="downloadBtn" href="http://go.hbnb.io/Xwsm/fbOLTCaYDu"><img id="android-download-btn-hero" src="images/btnPlayStore.svg" alt="Download on the google play store"></a>
             </div>
           </article>
-          <article class="contentBlock">
+          <article class="contentBlock threeSteps">
             <div class="valuePropList">
               <div class="valueProp">
                 <div class="valueText">
@@ -126,26 +132,7 @@
         <div id="tab3" class="vertical-tab-content">
           <article class="contentBlock threeUp">
             <h3>Sample Invites</h3>
-            <div><img src="flyers/flyer1.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer2.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer3.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer4.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer5.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer6.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer7.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer8.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer9.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer10.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer11.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer12.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer13.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer14.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer15.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer16.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer17.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer18.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer19.jpg" alt="A Flyer Made by Hobnob"></div>
-            <div><img src="flyers/flyer20.jpg" alt="A Flyer Made by Hobnob"></div>
+            <img class="threeUp" src="images/threeUp.jpg" alt="">
           </article>
         </div> <!-- Tab3 -->
 
@@ -201,7 +188,11 @@
   </section>
 
   <section id="footer">
-    <h1>footer goes here</h1>
+    <a href="jobs.html">Jobs</a>
+    <a href="business.html">Business</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="typography.html">Typography</a>
   </section>
 </body>
 <script src="scripts/app-min.js"></script>

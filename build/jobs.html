@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>About Hobnob</title>
   <link rel="stylesheet" href="styles/main.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
@@ -21,6 +25,7 @@
         <li><a href="faq.html">FAQ</a></li>
         <li><a class="download" href="#">Download</a></li>
       </ul> <!-- navMenu -->
+      <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
     </nav> <!-- mainNav -->
     <div id="siteHeaderWrapper" class="container">
       <h1>Jobs</h1>
@@ -48,6 +53,21 @@
               <p>We’re looking for an extremely talented senior backend engineer with deep knowledge of Ruby/Rails, Elixir/Phoenix, and DevOps. The ideal candidate has a passion for (and experience with) crafting well-made, scalable APIs and for architecting the infrastructure that supports them.</p>
               <a href="jobpost.html">See Full Description</a>
             </div>
+            <div class="jobPost">
+              <h5>iOS Developer</h5>
+              <p>We’re looking for an extremely talented senior backend engineer with deep knowledge of Ruby/Rails, Elixir/Phoenix, and DevOps. The ideal candidate has a passion for (and experience with) crafting well-made, scalable APIs and for architecting the infrastructure that supports them.</p>
+              <a href="jobpost.html">See Full Description</a>
+            </div>
+          </div>
+        </div> <!-- teamCategory -->
+        <div class="teamCategory"> <!-- repat to add new catagory -->
+          <h4 class="team">Design</h4>
+          <div class="jobDetails">
+            <div class="jobPost">
+              <h5>Designer</h5>
+              <p>We’re looking for an extremely talented senior backend engineer with deep knowledge of Ruby/Rails, Elixir/Phoenix, and DevOps. The ideal candidate has a passion for (and experience with) crafting well-made, scalable APIs and for architecting the infrastructure that supports them.</p>
+              <a href="jobpost.html">See Full Description</a>
+            </div>
           </div>
         </div> <!-- teamCategory -->
       </div>
@@ -72,7 +92,11 @@
   </section>
 
   <section id="footer">
-    <h1>footer goes here</h1>
+    <a href="jobs.html">Jobs</a>
+    <a href="business.html">Business</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="typography.html">Typography</a>
   </section>
 </body>
 </html>

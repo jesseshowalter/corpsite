@@ -2,13 +2,22 @@
 // ------       The Hero Section         ---------
 // ------------------------------------------------
 #heroWrapper{
-  padding-top: 75px;
+  padding-top: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: $breakpoint-tablet) {
+   padding-top:90px;
+  }
+  @media (max-width: $breakpoint-mobile) {
+   padding-top:65px;
+  }
 
   .heroVideo{
     @include span-columns(6);
+    @media (max-width: $breakpoint-tablet) {
+      display: none;
+    }
   }
 
   .videoContainer{
@@ -17,6 +26,12 @@
     background: url("../images/phoneFrame.png") no-repeat, 0 0;
     background-size: cover;
     position: relative;
+    @media (max-width: $breakpoint-laptop) {
+      width: 250px;
+      height: 500px;
+      margin-left: 25%;
+    }
+
     video{
       position: absolute;
       border:1px solid $gray;
@@ -25,27 +40,72 @@
       left: 19px;
       width: 350px;
       height:621px;
+
+      @media (max-width: $breakpoint-laptop) {
+        width: 213px;
+        height: 377px;
+      }
     }
   }
 
   .cta{
     @include span-columns(6);
     text-align: center;
+    @media (max-width: $breakpoint-laptop) {
+
+    }
+    @media (max-width: $breakpoint-tablet) {
+      @include span-columns(12);
+    }
   }
 
   .featuredLogos{
     margin-top: 80px;
     width: 70%;
+    @media (max-width: $breakpoint-laptop) {
+      margin-top:20px;
+    }
+    @media (max-width: $breakpoint-tablet) {
+      width: 350px;
+    }
+    @media (max-width: $breakpoint-mobile) {
+      display: none;
+    }
   }
+
+  a.btn{
+    display: inline-block;
+    width: 245px;
+    height: auto;
+    margin:0 10px 20px;
+    @media (max-width: $breakpoint-tablet) {
+      width: 175px;
+    }
+    @media (max-width: $breakpoint-mobile) {
+      width: 210px;
+    }
+  }
+  a.btn:hover{
+    transform: scale(1.015);
+  }
+
 }
 
 #siteHeader.home{
   background: url("../images/banner-home.jpg");
   @include fullImage;
-  height: 80vh;
-  min-height:1100px;
+  height: 1000px;
   color: white;
   position: relative;
+  @media (max-width: $breakpoint-laptop) {
+    height: 700px;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    height: 500px;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    height: 350px;
+  }
 }
 
 
@@ -57,19 +117,92 @@
   position: relative;
   height: 900px;
   overflow: visible;
+  @media (max-width: 1100px) {
+    margin-top: -50px;
+    height: auto;
+    padding-bottom: 50px;
+  }
 
   .discoverTagline{
     position:absolute;
     width: 500px;
-    top: 0;
-    left: -100px;
+    top: -40px;
+    left: -35px;
     h2{
       color: $shamrock;
     }
+    @media (max-width: 1350px) {
+      left: 30px;
+      top: 30px;
+      width: 420px;
+      h2{
+        font-size: 2em;
+      }
+    }
+    @media (max-width: 1100px) {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      display: block;
+      width: 80%;
+      min-width: 325px;
+      margin: 0 auto 80px;
+      text-align: center;
+    }
   }
   .discoverVideo1, .discoverVideo2{
-    width: 800px;
+    width: 750px;
+    z-index: 20;
+    @media (max-width: 1350px) {
+      width: 630px;
+    }
   }
+  .discoverVideo1{
+    position: absolute;
+    top: 80px;
+    right: -50px;
+    @media (max-width: 1350px) {
+      right: 20px;
+    }
+    @media (max-width: 1100px) {
+      display: none;
+    }
+  }
+  .discoverVideo2{
+    position: absolute;
+    bottom: 80px;
+    left: -50px;
+    @media (max-width: 1350px) {
+      left: 20px;
+    }
+    @media (max-width: 1100px) {
+      position:relative;
+      left: 0;
+      bottom:0;
+      display: block;
+      width: auto;
+    }
+  }
+  .discoverReviews{
+    position: absolute;
+    bottom: 30px;
+    right: -60px;
+    width: 550px;
+    @media (max-width: 1350px) {
+      right: 0px;
+      bottom: 115px;
+      width:480px;
+    }
+    @media (max-width: 1100px) {
+      display: none;
+    }
+  }
+
+
+
+  // ------------------------------------------------
+  // ------   Play Buttons   ------
+  // ------------------------------------------------
   .discoverVideo1:after, .discoverVideo2:after{
     @include transition15;
     background: url("../images/btnVideoPlay.svg");
@@ -83,35 +216,27 @@
     margin-top: -50px;
     left: 50%;
     margin-left: -50px;
+    @media (max-width: $breakpoint-tablet) {
+      width: 100px;
+      height: 100px;
+      margin-left:-55px;
+      margin-top: -50px;
+    }
   }
   .discoverVideo1:hover, .discoverVideo2:hover{
     transform: scale(.985);
   }
   .discoverVideo1:hover:after, .discoverVideo2:hover:after{
     transform: scale(1.065);
-    opacity:0.8;
-  }
-  .discoverVideo1{
-    position: absolute;
-    top: 0;
-    right: -150px;
-  }
-  .discoverVideo2{
-    position: absolute;
-    bottom:0px;
-    left:-150px;
-  }
-  .discoverReviews{
-    position: absolute;
-    bottom: 50px;
-    right: -100px;
-    width: 550px;
+    opacity: 0.8;
   }
 }
 
 // ------------------------------------------------
 // ------   Features Showcase Slider Area    ------
 // ------------------------------------------------
+// styles for the actual slider can be found in 0-plugins/_slick.scss
+
 #siteFeatureShowcase{
   padding: 40px 0 80px;
   background:url("../images/featureShowcaseSlideBg.jpg");

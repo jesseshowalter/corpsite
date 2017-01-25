@@ -9,11 +9,4 @@
   padding: 40px 0;
   border: none;
   position: relative;
-
-  h3{
-    font-size: 2.427em;
-    @media (max-width: $breakpoint-laptop) {
-      font-size: 1.4em;
-    }
-  }
 }

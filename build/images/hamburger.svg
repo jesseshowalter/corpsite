@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQ---In-App" transform="translate(-317.000000, -38.000000)" fill="#FFFFFF">
+            <g id="Nav" transform="translate(33.000000, 34.000000)">
+                <g id="hamburger" transform="translate(284.000000, 4.000000)">
+                    <path d="M1.47431739,3 L23.5256826,3 C24.3409801,3 25,2.328 25,1.5 C25,0.672 24.3409801,0 23.5256826,0 L1.47431739,0 C0.659019874,0 0,0.672 0,1.5 C0,2.328 0.659019874,3 1.47431739,3 Z" id="Shape"></path>
+                    <path d="M23.5256826,6.5 L1.47431739,6.5 C0.659019874,6.5 0,7.172 0,8 C0,8.828 0.659019874,9.5 1.47431739,9.5 L23.5256826,9.5 C24.3409801,9.5 25,8.828 25,8 C25,7.172 24.3409801,6.5 23.5256826,6.5 Z" id="Shape"></path>
+                    <path d="M23.5256826,13 L1.47431739,13 C0.659019874,13 0,13.672 0,14.5 C0,15.328 0.659019874,16 1.47431739,16 L23.5256826,16 C24.3409801,16 25,15.328 25,14.5 C25,13.672 24.3409801,13 23.5256826,13 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

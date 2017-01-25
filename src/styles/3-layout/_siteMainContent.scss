@@ -3,6 +3,10 @@
   padding-bottom:100px;
   position: relative;
   background: white;
+  @media (max-width: $breakpoint-tablet) {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
 
   &:after{
     background-image:url(../images/angleBottom.svg);

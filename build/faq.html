@@ -6,11 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hobnob Press and Media</title>
   <link rel="stylesheet" href="styles/main.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
   <section id="siteHeader" class="faq">
-    <nav id="mainNav" class="container">
+    <nav id="mainNav">
       <a id="brand" href="index.html">
         <h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1>
       </a>
@@ -21,9 +25,10 @@
         <li><a class="navActive" href="faq.html">FAQ</a></li>
         <li><a class="download" href="#">Download</a></li>
       </ul> <!-- navMenu -->
+      <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
     </nav> <!-- mainNav -->
     <div id="siteHeaderWrapper" class="container">
-      <h1>FAQ</h1>
+      <h1 class="">FAQ</h1>
     </div> <!-- siteHeaderWrapper -->
   </section>
   <!-- Page Header -->
@@ -246,7 +251,11 @@
   </section>
 
   <section id="footer">
-    <h1>footer goes here</h1>
+    <a href="jobs.html">Jobs</a>
+    <a href="business.html">Business</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="typography.html">Typography</a>
   </section>
 </body>
 <script src="scripts/app-min.js"></script>

@@ -56,27 +56,6 @@ button.slick-prev, button.slick-next { display: none; }
 
 .flyerSlider div { max-height: 430px; margin: 0 5px 0 0; }
 
-/**********/
-/* LAYOUT */
-/**********/
-.is-hidden { display: none; }
-
-.is-visible { display: block; }
-
-/* Header */
-#header { padding: 1em; background: red; }
-
-#header-content { max-width: 800px; margin: 0 auto; overflow: hidden; }
-
-#header-logo { padding: 0; background: none; float: left; }
-
-#header-nav { padding: .5em; background: none; float: right; display: block; }
-
-#header-nav-toggle { display: none; }
-
-/* Nav */
-.nav li { width: auto; margin: 0 .5em; display: inline-block; }
-
 html { background: white; }
 
 .container { max-width: 1200px; margin-left: auto; margin-right: auto; overflow: auto; }
@@ -197,15 +176,15 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #mainNav { overflow: auto; padding-top: 20px; max-width: 1200px; margin: 0 auto; }
 
-@media (max-width: 1200px) { #mainNav { width: 100%; padding-left: 20px; padding-right: 20px; } }
+@media (max-width: 1200px) { #mainNav { width: 100%; padding: 20px 20px; } }
 
-#header-nav-toggle { color: #fff; font-size: 2em; position: absolute; top: 10px; right: 10px; z-index: 1; cursor: pointer; }
+#header-nav-toggle { color: #fff; float: right; margin-top: 5px; top: 10px; right: 10px; z-index: 1; cursor: pointer; }
 
 @media (max-width: 768px) { #header-nav-toggle { display: block; } }
 
 #brand { margin: 0; padding: 12px 0; float: left; transition: all 0.15s ease-out 0s; }
 
-@media (max-width: 768px) { #brand { margin: 0; padding: 0; width: 100px; } }
+@media (max-width: 768px) { #brand { padding: 0; width: 100px; } }
 
 #brand:hover { opacity: 0.8; }
 
@@ -215,7 +194,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 768px) { #navMenu { display: none; } }
 
-#navMenu li { display: inline; }
+#navMenu li { display: inline; margin: 0; }
 
 #navMenu a { display: inline-block; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 15px; margin-left: 10px; border-bottom: 2px solid transparent; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; transition: all 0.15s ease-out 0s; }
 
@@ -226,6 +205,10 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 #navMenu .download { border: 2px solid #fff; border-radius: 1px; }
 
 #navMenu .download:hover { border: 2px solid #4FE3C0; background: #4FE3C0; opacity: 1s; }
+
+.is-hidden { display: none; }
+
+.is-visible { display: block; }
 
 #footer { text-align: center; padding: 100px 0; }
 
@@ -369,7 +352,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 768px) { #heroWrapper { padding-top: 90px; } }
 
-@media (max-width: 400px) { #heroWrapper { padding-top: 65px; } }
+@media (max-width: 400px) { #heroWrapper { padding-top: 40px; } }
 
 #heroWrapper .heroVideo { float: left; display: block; margin-right: 2.3576520234%; width: 48.8211739883%; }
 

@@ -48,7 +48,7 @@ p {margin-bottom: 1.3em; color: $coal; line-height: 2;}
 
 h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
-  line-height: 1.2;
+  line-height: 1.6;
   text-transform: uppercase;
   font-family: $font-medium;
 }
@@ -58,35 +58,39 @@ h1 {
   font-size: 3.998em;
   @media (max-width: $breakpoint-tablet) {
     font-size: 3em;
-    color: red;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 2.4em;
   }
 }
 h2 {
   font-size: 2.827em;
   @media (max-width: $breakpoint-tablet) {
-    font-size: 90%;
-    color: red;
+    font-size: 2.2em;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 1.6em;
   }
 }
 h3 {
   font-size: 1.999em;
   @media (max-width: $breakpoint-tablet) {
-    font-size: 90%;
-    color: red;
+    font-size: 1.3em;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 1.2em;
   }
 }
 h4 {
   font-size: 1.414em;
   @media (max-width: $breakpoint-tablet) {
-    font-size: 90%;
-    color: red;
+    font-size: 1.2em;
   }
 }
 h5 {
   font-size: 1.214em;
   @media (max-width: $breakpoint-tablet) {
-    font-size: 90%;
-    color: red;
+    font-size: 1em;
   }
 }
 

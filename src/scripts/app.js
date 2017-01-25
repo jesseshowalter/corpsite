@@ -1,6 +1,7 @@
 // @codekit-prepend "vendors/jquery-3.1.1.min.js";
 // @codekit-prepend "vendors/slick.js";
 
+
 $(document).ready(function(){
 
   // -------------------------------
@@ -41,5 +42,29 @@ $(document).ready(function(){
     slidesToScroll: 1,
     arrows: false,
   });
+
+  // -------------------------------
+  // Mobile Navigation
+  // -------------------------------
+  (function () {
+    var toggle = document.getElementById('header-nav-toggle'),
+        nav = document.getElementById('navMenu');
+
+    // If JavaScript Is Enabled
+    // Modify Initial States
+    toggle.className = 'is-hidden';
+    nav.className = 'is-visable';
+
+    // Change Visibility On Click
+    toggle.addEventListener('click', function() {
+      if (nav.className === 'is-hidden') {
+        nav.className = '';
+      } else {
+        nav.className = 'is-hidden';
+      }
+    })
+  })();
+
+
 
 });

@@ -1,7 +1,27 @@
 #mainNav{
   overflow: auto;
   padding-top: 20px;
+  max-width:1200px;
+  margin:0 auto;
+  @media (max-width: $breakpoint-desktop) {
+    width: 100%;
+    padding-left:40px;
+    padding-right:40px;
+  }
 }
+#header-nav-toggle {
+  color:#fff;
+  font-size:2em;
+  position:absolute;
+  top:.5em;
+  right:.5em;
+  z-index:1;
+  cursor:pointer;
+  @media (max-width: $breakpoint-tablet) {
+    display: block;
+  }
+}
+
 #brand{
   margin:0;
   padding: 20px 0;
@@ -21,6 +41,9 @@
   margin:5px 0 0;
   padding: 0;
   float: right;
+  @media (max-width: $breakpoint-tablet) {
+    display: none;
+  }
 
   li{ display:inline;}
 

@@ -56,6 +56,27 @@ button.slick-prev, button.slick-next { display: none; }
 
 .flyerSlider div { max-height: 430px; margin: 0 5px 0 0; }
 
+/**********/
+/* LAYOUT */
+/**********/
+.is-hidden { display: none; }
+
+.is-visible { display: block; }
+
+/* Header */
+#header { padding: 1em; background: red; }
+
+#header-content { max-width: 800px; margin: 0 auto; overflow: hidden; }
+
+#header-logo { padding: 0; background: none; float: left; }
+
+#header-nav { padding: .5em; background: none; float: right; display: block; }
+
+#header-nav-toggle { display: none; }
+
+/* Nav */
+.nav li { width: auto; margin: 0 .5em; display: inline-block; }
+
 html { background: white; }
 
 .container { max-width: 1200px; margin-left: auto; margin-right: auto; overflow: auto; }
@@ -150,7 +171,13 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #siteHeaderWrapper h1 { font-weight: bold; color: white; }
 
-#mainNav { overflow: auto; padding-top: 20px; }
+#mainNav { overflow: auto; padding-top: 20px; max-width: 1200px; margin: 0 auto; }
+
+@media (max-width: 1200px) { #mainNav { width: 100%; padding-left: 40px; padding-right: 40px; } }
+
+#header-nav-toggle { color: #fff; font-size: 2em; position: absolute; top: .5em; right: .5em; z-index: 1; cursor: pointer; }
+
+@media (max-width: 768px) { #header-nav-toggle { display: block; } }
 
 #brand { margin: 0; padding: 20px 0; float: left; transition: all 0.15s ease-out 0s; }
 
@@ -159,6 +186,8 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 #brand h1 { margin: 0; padding: 0; font-size: 0; }
 
 #navMenu { margin: 5px 0 0; padding: 0; float: right; }
+
+@media (max-width: 768px) { #navMenu { display: none; } }
 
 #navMenu li { display: inline; }
 

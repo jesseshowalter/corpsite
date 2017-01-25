@@ -4,26 +4,26 @@
   display: flex;
   align-items: center;
   padding: 70px 0;
-  @media (max-width: $breakpoint-mobile) {
+  @media (max-width: $breakpoint-tablet) {
     display: block;
     padding: 20px 0 50px;
   }
   &:last-child{
     border: none;
   }
-  p{
-    @include span-columns(8);
-    padding: 0;
-    margin: 0;
-    @media (max-width: $breakpoint-mobile) {
-      @include span-columns(12);
-    }
-  }
   h3{
     @include span-columns(4);
     padding: 0;
     margin: 0;
-    @media (max-width: $breakpoint-mobile) {
+    @media (max-width: $breakpoint-tablet) {
+      @include span-columns(12);
+    }
+  }
+  p{
+    @include span-columns(8);
+    padding: 0;
+    margin: 0;
+    @media (max-width: $breakpoint-tablet) {
       @include span-columns(12);
     }
   }

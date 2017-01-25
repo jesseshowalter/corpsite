@@ -55,6 +55,9 @@ h1, h2, h3, h4, h5 {
   line-height: 1.65;
   text-transform: uppercase;
   font-family: $font-medium;
+  @media (max-width: $breakpoint-tablet) {
+    line-height: 1.4em;
+  }
 }
 
 h1 {
@@ -122,10 +125,12 @@ cite {
 
 li {
   color: $coal;
-  list-style: circle;
-  list-style-position: inside;
+  list-style: disc;
   margin-bottom:0.5em;
   line-height: 2em;
+  list-style-position: outside;
+  margin-left: 20px;
+  padding-left:5px;
 }
 em {
   font-family: $font-medium;

@@ -5,6 +5,10 @@ html{
   @include outer-container;
   overflow: auto;
 
+  @media (max-width: $breakpoint-desktop) {
+		padding: 0 30px;
+	}
+
   img{
     max-width: 100%; // temp style, remove after
   }

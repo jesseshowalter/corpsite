@@ -62,6 +62,8 @@ html { background: white; }
 
 .container::after { clear: both; content: ""; display: block; }
 
+@media (max-width: 1200px) { .container { padding: 0 30px; } }
+
 .container img { max-width: 100%; }
 
 a:link, a:visited { color: #4FE3C0; transition: all 0.15s ease-out 0s; }
@@ -202,13 +204,22 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 .featureStatement h2 { font-size: 1.999em; }
 
-#bannerIosAndroid { background: url("../images/banner-IosAndroid.jpg") no-repeat, 0 0; background-size: cover; height: 250px; color: white; text-align: center; padding: 50px 0 0; border: none; position: relative; }
+#bannerIosAndroid { background: url("../images/banner-IosAndroid.jpg") no-repeat, 0 0; background-size: cover; display: flex; align-content: center; justify-content: center; color: white; text-align: center; padding: 40px 0; border: none; position: relative; }
 
-#bannerIosAndroid h3 { font-size: 2.827em; }
+#bannerIosAndroid h3 { font-size: 2.427em; }
+
+@media (max-width: 950px) { #bannerIosAndroid h3 { font-size: 1.4em; } }
+
+@media (max-width: 950px) { .twoColumn { display: flex; flex-direction: column; align-items: flex-start; } }
 
 #sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 31.7615653177%; }
 
 #sideNavigation:last-child { margin-right: 0; }
+
+@media (max-width: 950px) { #sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 100%; order: 2; }
+  #sideNavigation:last-child { margin-right: 0; } }
+
+#sideNavigation li { list-style: none; }
 
 #sideNavigation a:link, #sideNavigation a:visited { color: #727272; padding: 10px 0; text-decoration: none; text-transform: uppercase; line-height: 3.5em; border-bottom: 4px solid transparent; }
 
@@ -220,7 +231,10 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn:last-child { margin-right: 0; }
 
-#mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 80px 0; }
+@media (max-width: 950px) { #mainColumn { float: left; display: block; margin-right: 2.3576520234%; width: 100%; order: 1; }
+  #mainColumn:last-child { margin-right: 0; } }
+
+#mainColumn .contentBlock { overflow: auto; border-top: 1px solid #E5E5E5; padding: 80px 0 0; }
 
 #mainColumn .contentBlock h3 { margin: 60px 0 40px; }
 
@@ -252,11 +266,15 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 
 #mainColumn .threeUp div:last-child { margin-right: 0; }
 
-#mainColumn .questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; }
+#mainColumn .questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; margin-bottom: 40px; }
+
+@media (max-width: 950px) { #mainColumn .questions { border: 1px solid #E5E5E5; font-size: 1.1em; padding: 3em 1em; } }
 
 #mainColumn .post { padding: 20px 0 40px; border-bottom: 1px solid #E5E5E5; }
 
 #mainColumn .post:first-of-type { padding-top: 0; }
+
+#mainColumn .post:last-of-type { border: none; }
 
 #mainColumn .olderPosts { float: right; margin-top: 40px; }
 

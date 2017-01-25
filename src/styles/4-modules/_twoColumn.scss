@@ -1,5 +1,21 @@
+.twoColumn{
+  @media (max-width: $breakpoint-laptop) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 #sideNavigation{
   @include span-columns(4);
+  @media (max-width: $breakpoint-laptop) {
+		@include span-columns(12);
+    order: 2;
+	}
+
+  li{
+    list-style: none;
+  }
 
   a:link, a:visited{
     color: $coal;
@@ -24,11 +40,15 @@
 
 #mainColumn{
   @include span-columns(8);
+  @media (max-width: $breakpoint-laptop) {
+		@include span-columns(12);
+    order: 1;
+	}
 
   .contentBlock{
     overflow: auto;
     border-top: 1px solid $gray;
-    padding: 80px 0;
+    padding: 80px 0 0;
     h3{
       margin:60px 0 40px;
     }
@@ -98,6 +118,12 @@
     text-transform: uppercase;
     text-align: center;
     padding: 0;
+    margin-bottom: 40px;
+    @media (max-width: $breakpoint-laptop) {
+      border: 1px solid $gray;
+      font-size: 1.1em;
+      padding: 3em 1em;
+    }
   }
   .post{
     padding: 20px 0 40px;
@@ -105,6 +131,9 @@
 
     &:first-of-type{
       padding-top:0;
+    }
+    &:last-of-type{
+      border: none;
     }
   }
   .olderPosts{

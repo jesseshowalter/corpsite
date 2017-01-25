@@ -1,14 +1,19 @@
 #bannerIosAndroid{
   background:url("../images/banner-IosAndroid.jpg") no-repeat, 0 0;
   background-size: cover;
-  height: 250px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   color: white;
   text-align: center;
-  padding:50px 0 0;
+  padding: 40px 0;
   border: none;
   position: relative;
 
   h3{
-    font-size: 2.827em;
+    font-size: 2.427em;
+    @media (max-width: $breakpoint-laptop) {
+      font-size: 1.4em;
+    }
   }
 }

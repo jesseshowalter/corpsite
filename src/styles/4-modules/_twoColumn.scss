@@ -18,6 +18,7 @@
     border: 1px solid $gray;
     font-size: 1.1em;
     padding: 3em 1em;
+    margin-bottom: 60px;
   }
 
   li{
@@ -29,18 +30,29 @@
     padding:10px 0;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 3.5em;
+    line-height: 1.5em;
     border-bottom: 4px solid transparent;
+    display: inline-block;
+    margin-bottom: 15px;
   }
   a:hover, a:active{
     color: $mineShaft;
     border-bottom: 4px solid $turquoise;
     opacity: 0.9;
+    // @media (max-width: $breakpoint-tablet) {
+    //   border-bottom: 4px solid transparent;
+    //   color: $turquoise;
+    // }
+
   }
   a.sideNavActive{
     border-bottom: 4px solid $turquoise;
     font-family: $font-bold;
     color: $mineShaft;
+    // @media (max-width: $breakpoint-tablet) {
+    //   border-bottom: 4px solid transparent;
+    // }
+
   }
 } // end #sideNavigation
 

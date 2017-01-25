@@ -131,23 +131,35 @@ body { background-color: white; line-height: 1.45; color: #333; font-family: "Go
 
 p { margin-bottom: 1.3em; color: #727272; line-height: 2; }
 
-h1, h2, h3, h4 { margin: 1.414em 0 0.5em; font-weight: inherit; line-height: 1.2; text-transform: uppercase; font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+h1, h2, h3, h4, h5 { margin: 1.414em 0 0.5em; line-height: 1.2; text-transform: uppercase; font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 h1 { margin-top: 0; font-size: 3.998em; }
 
+@media (max-width: 768px) { h1 { font-size: 3em; color: red; } }
+
 h2 { font-size: 2.827em; }
+
+@media (max-width: 768px) { h2 { font-size: 90%; color: red; } }
 
 h3 { font-size: 1.999em; }
 
+@media (max-width: 768px) { h3 { font-size: 90%; color: red; } }
+
 h4 { font-size: 1.414em; }
+
+@media (max-width: 768px) { h4 { font-size: 90%; color: red; } }
+
+h5 { font-size: 1.214em; }
+
+@media (max-width: 768px) { h5 { font-size: 90%; color: red; } }
 
 small, .font_small { font-size: 0.707em; }
 
-blockquote { font-weight: 100; font-style: italic; font-size: 1em; position: relative; line-height: 1.3em; }
+blockquote { font-weight: 100; font-style: italic; font-size: 1em; position: relative; line-height: 1.3em; border-left: 4px solid #2CD4AE; padding: 10px 0 10px 20px; margin: 20px 0; color: #727272; }
 
 cite { font-weight: 300; font-size: 0.8em; text-transform: uppercase; margin-top: 10px; display: block; }
 
-li { color: #727272; list-style: circle; margin-bottom: 0.5em; line-height: 2em; }
+li { color: #727272; list-style: circle; list-style-position: inside; margin-bottom: 0.5em; line-height: 2em; }
 
 em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
@@ -262,11 +274,11 @@ em { font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", "Roboto", "Ari
 @media (max-width: 950px) { #sideNavigation { float: left; display: block; margin-right: 2.3576520234%; width: 100%; order: 2; padding: 20px 0 60px; }
   #sideNavigation:last-child { margin-right: 0; } }
 
-@media (max-width: 768px) { #sideNavigation { text-align: center; border: 1px solid #E5E5E5; font-size: 1.1em; padding: 3em 1em; } }
+@media (max-width: 768px) { #sideNavigation { text-align: center; border: 1px solid #E5E5E5; font-size: 1.1em; padding: 3em 1em; margin-bottom: 60px; } }
 
 #sideNavigation li { list-style: none; }
 
-#sideNavigation a:link, #sideNavigation a:visited { color: #727272; padding: 10px 0; text-decoration: none; text-transform: uppercase; line-height: 3.5em; border-bottom: 4px solid transparent; }
+#sideNavigation a:link, #sideNavigation a:visited { color: #727272; padding: 10px 0; text-decoration: none; text-transform: uppercase; line-height: 1.5em; border-bottom: 4px solid transparent; display: inline-block; margin-bottom: 15px; }
 
 #sideNavigation a:hover, #sideNavigation a:active { color: #303030; border-bottom: 4px solid #4FE3C0; opacity: 0.9; }
 

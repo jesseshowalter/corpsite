@@ -3,6 +3,7 @@
 // @codekit-prepend "vendors/classie.js";
 // @codekit-prepend "vendors/modernizr.custom.js";
 // @codekit-prepend "vendors/lity.js";
+// @codekit-prepend "vendors/smoothState.js";
 
 
 $(document).ready(function(){
@@ -102,6 +103,25 @@ $(document).ready(function(){
   closeBttn.addEventListener( 'click', toggleOverlay );
  })();
 
+ // -------------------------------
+ // Smooth State
+ // -------------------------------
+    (function ($) {
+     'use strict';
+     var $body    = $('html, body'), // Define jQuery collection
+         content  = $('#main').smoothState({
+           onStart : {
+             duration: 250,
+             render: function () {
+               content.toggleAnimationClass('is-exiting');
+
+               // Scroll user to the top
+               $body.animate({ 'scrollTop': 0 });
+
+             }
+           }
+         }).data('smoothState');
+    })(jQuery);
 
 
 });

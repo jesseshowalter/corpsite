@@ -12,32 +12,36 @@
   <![endif]-->
 </head>
 <body>
+<div id="main" class="m-scene">
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
-  <section id="siteHeader" class="about">
-    <nav id="mainNav" class="container">
-      <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
-      <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
-      <div class="overlay">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-          <ul id="navMenu">
-            <li><a class="navActive" href="about.html">About</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a class="download" href="#">Download</a></li>
-          </ul>
-        </nav>
-      </div>
-    </nav> <!-- mainNav -->
-    <div id="siteHeaderWrapper" class="container">
-      <h1>About</h1>
-    </div> <!-- siteHeaderWrapper -->
-  </section>
+  <div class="m-header scene_element scene_element--fadein">
+    <section id="siteHeader" class="about">
+      <nav id="mainNav" class="container">
+        <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
+        <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
+        <div class="overlay">
+          <button type="button" class="overlay-close">Close</button>
+          <nav>
+            <ul id="navMenu">
+              <li><a class="navActive" href="about.html">About</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a class="download" href="#">Download</a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav> <!-- mainNav -->
+      <div id="siteHeaderWrapper" class="container">
+        <h1>About</h1>
+      </div> <!-- siteHeaderWrapper -->
+    </section>
+  </div>
   <!-- Page Header -->
 
   <!-- Main Content Area -->
-  <section id="siteMainContent">
+  <div class="m-header scene_element scene_element--fadeinup">
+    <section id="siteMainContent">
     <div class="container">
       <article class="featureStatement">
         <h2>Hobnob is...</br> actually social.</h2>
@@ -67,6 +71,7 @@
       </article>
     </div>
   </section>
+  </div>
   <!-- Main Content Area-->
 
   <section id="bannerIosAndroid">
@@ -80,6 +85,7 @@
     <a href="terms.html">Terms</a>
     <a href="typography.html">Typography</a>
   </section>
+</div>
 </body>
 <script src="scripts/app-min.js"></script>
 </html>

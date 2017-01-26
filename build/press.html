@@ -12,8 +12,10 @@
   <![endif]-->
 </head>
 <body>
+<div id="main" class="m-scene">
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
-  <section id="siteHeader" class="press">
+  <div class="m-header scene_element scene_element--fadein">
+    <section id="siteHeader" class="press">
     <nav id="mainNav" class="container">
       <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
       <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
@@ -36,10 +38,12 @@
       <h1>Press</h1>
     </div> <!-- siteHeaderWrapper -->
   </section>
+  </div>
   <!-- Page Header -->
 
   <!-- Main Content Area -->
-  <section id="siteMainContent">
+  <div class="m-header scene_element scene_element--fadeinup">
+    <section id="siteMainContent">
     <div class="container twoColumn">
       <aside id="sideNavigation">
         <ul>
@@ -186,6 +190,7 @@
       </div> <!-- Main Column -- >
     </div> <!-- container twoColumn" -->
   </section>
+  </div>
   <!-- Main Content Area-->
 
   <section id="bannerIosAndroid">
@@ -199,6 +204,7 @@
     <a href="terms.html">Terms</a>
     <a href="typography.html">Typography</a>
   </section>
+</div>
 </body>
 <script src="scripts/app-min.js"></script>
 </html>

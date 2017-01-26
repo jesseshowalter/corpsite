@@ -15,17 +15,22 @@
   <!-- Home Page Header - styles found in templates/_home.scss -->
   <section id="siteHeader" class="home">
     <nav id="mainNav" class="container">
-      <a id="brand" href="index.html">
-        <h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1>
-      </a>
-      <ul id="navMenu">
-        <li><a href="about.html">About</a></li>
-        <li><a href="press.html">Press</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a class="download" href="#">Download</a></li>
-      </ul> <!-- navMenu -->
-      <div id="header-nav-toggle" class="is-hidden"><img src="images/hamburger.svg" alt=""></div>
+      <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
+      <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
+      <div class="overlay">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+          <ul id="navMenu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a class="download" href="#">Download</a></li>
+            <!-- <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
+            <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li> -->
+          </ul>
+        </nav>
+      </div>
     </nav> <!-- mainNav -->
 
     <div id="heroWrapper" class="container">
@@ -40,7 +45,6 @@
         <img class="featuredLogos" src="images/featuredLogos.png" alt="Hobnob has been featured on these channels">
       </div>
     </div>
-
   </section>
   <!-- Home Page Header -->
 

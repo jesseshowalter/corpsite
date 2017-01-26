@@ -8,18 +8,6 @@
     padding: 20px 20px;
   }
 }
-#header-nav-toggle {
-  color:#fff;
-  float: right;
-  margin-top: 5px;
-  top:10px;
-  right:10px;
-  z-index:1;
-  cursor:pointer;
-  @media (max-width: $breakpoint-tablet) {
-    display: block;
-  }
-}
 
 #brand{
   margin:0;
@@ -40,12 +28,36 @@
     font-size: 0;
   }
 }
+#brandDark{
+  display: none;
+  @media (max-width: $breakpoint-tablet) {
+    display: block;
+    margin:0;
+    padding: 12px 0;
+    float:left;
+    @include transition15;
+  }
+}
+
+#nav-toggle-switch{
+  display:none;
+  color:#fff;
+  float: right;
+  margin-top: 5px;
+  top:10px;
+  right:10px;
+  z-index:1;
+  cursor:pointer;
+  @media (max-width: $breakpoint-tablet) {
+    display: block;
+  }
+}
 #navMenu{
   margin:5px 0 0;
   padding: 0;
   float: right;
   @media (max-width: $breakpoint-tablet) {
-    display: none;
+    float: none;
   }
 
   li{
@@ -71,35 +83,176 @@
   .navActive{
     border-bottom: 4px solid $turquoise;
     font-family: $font-bold;
+    @media (max-width: $breakpoint-tablet) {
+      color: $shamrock !important;
+    }
   }
   .download{
     border: 2px solid #fff;
     border-radius: 1px;
+    @media (max-width: $breakpoint-tablet) {
+      border: none;
+    }
   }
   .download:hover{
     border: 2px solid $turquoise;
     background: $turquoise;
     opacity: 1s;
+    @media (max-width: $breakpoint-tablet) {
+      background: none;
+    }
   }
 }
 
-// /*************/
-// /* MODIFIERS */
-// /*************/
-.is-hidden {display:none;}
-.is-visible {display:block;}
+
+// /**********************************/
+// /* Responsive Overloay Navigation */
+// /**********************************/
+.overlay .overlay-close {
+  display: none;
+}
+
+.overlay .downL{
+  display: none;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  #siteHeader #mainNav{
+    .overlay {
+    	position: fixed;
+    	width: 100%;
+    	height: 100%;
+    	top: 0;
+    	left: 0;
+    	background: rgba(white, 0.98);
+      z-index: 100;
 
 
-// /*****************/
-// /* MEDIA QUERIES */
-// /*****************/
+      .downL{
+        width: 50%;
+        margin: 40px auto;
+        display: block;
+        text-align: center;
+      }
+    }
 
-  // /* Header */
-  // #header {padding:1em; background:red;}
-  // #header-content {max-width:800px; margin:0 auto; overflow:hidden;}
-  // #header-logo {padding:0; background:none; float:left;}
-  // #header-nav  {padding:.5em; background:none; float:right; display:block;}
-  // #header-nav-toggle {display:none;}
-  //
-  // /* Nav */
-  // .nav li {width:auto; margin:0 .5em; display:inline-block;}
+    /* Overlay closing cross */
+    .overlay .overlay-close {
+      display:block;
+    	width: 80px;
+    	height: 80px;
+    	position: absolute;
+    	right: 20px;
+    	top: 20px;
+    	overflow: hidden;
+    	border: none;
+    	background: url(../images/cross.svg) no-repeat center center;
+    	text-indent: 200%;
+    	color: transparent;
+    	outline: none;
+    	z-index: 100;
+      cursor: pointer;
+    }
+
+    /* Menu style */
+    .overlay nav {
+    	text-align: center;
+    	position: relative;
+    	top: 30%;
+    	height: 60%;
+    	font-size: 54px;
+    	-webkit-transform: translateY(-50%);
+    	transform: translateY(-50%);
+    }
+
+    .overlay ul {
+    	list-style: none;
+    	padding: 0;
+    	margin: 0 auto;
+    	display: inline-block;
+    	height: 100%;
+    	position: relative;
+    }
+
+    .overlay ul li {
+    	display: block;
+    	height: 20%;
+    	height: calc(100% / 5);
+    	min-height: 54px;
+      @media (max-width: $breakpoint-tablet) {
+        height: 0;
+        padding: 40px 0;
+      }
+    }
+
+    .overlay ul li a {
+    	font-family: $font-book;
+      text-decoration: none;
+    	display: block;
+    	color: $coal;
+    	-webkit-transition: color 0.2s;
+    	transition: color 0.2s;
+      border: none;
+      @media (max-width: $breakpoint-tablet) {
+        font-size:26px;
+        margin: 0 auto;
+      }
+    }
+
+    .overlay ul li a:hover,
+    .overlay ul li a:focus {
+    	color: $shamrock;
+      text-decoration: none;
+      border: none;
+    }
+
+    /* Effects */
+    .overlay {
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    	transition: opacity 0.5s, visibility 0s 0.5s;
+    }
+
+    .overlay.open {
+    	opacity: 1;
+    	visibility: visible;
+    	-webkit-transition: opacity 0.5s;
+    	transition: opacity 0.5s;
+    }
+
+    .overlay nav {
+    	-webkit-perspective: 1200px;
+    	perspective: 1200px;
+    }
+
+    .overlay nav ul {
+    	opacity: 0.4;
+    	-webkit-transform: translateY(-25%) rotateX(35deg);
+    	transform: translateY(-25%) rotateX(35deg);
+    	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    	transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .overlay.open nav ul {
+    	opacity: 1;
+    	-webkit-transform: rotateX(0deg);
+    	transform: rotateX(0deg);
+    }
+
+    .overlay.close nav ul {
+    	-webkit-transform: translateY(25%) rotateX(-35deg);
+    	transform: translateY(25%) rotateX(-35deg);
+    }
+    //
+    // @media screen and (max-height: 30.5em) {
+    // 	.overlay nav {
+    // 		height: 70%;
+    // 		font-size: 34px;
+    // 	}
+    // 	.overlay ul li {
+    // 		min-height: 34px;
+    // 	}
+    // }
+  }
+}

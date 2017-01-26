@@ -2,6 +2,7 @@
 // @codekit-prepend "vendors/slick.js";
 // @codekit-prepend "vendors/classie.js";
 // @codekit-prepend "vendors/modernizr.custom.js";
+// @codekit-prepend "vendors/lity.js";
 
 
 $(document).ready(function(){

@@ -651,6 +651,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/src\/scripts\/vendors\/lity.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/scripts\/vendors\/lity-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/scripts\/vendors\/modernizr.custom.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1626,6 +1635,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/0-plugins\/_0-plugins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/0-plugins\/_lity.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/0-plugins\/_lity.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

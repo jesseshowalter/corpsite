@@ -238,8 +238,9 @@
 // styles for the actual slider can be found in 0-plugins/_slick.scss
 
 #siteFeatureShowcase{
-  padding: 40px 0 80px;
+  padding: 40px 0 0;
   background:url("../images/featureShowcaseSlideBg.jpg");
+  @include fullImage;
 
   h2, p{
     color: #FFF;

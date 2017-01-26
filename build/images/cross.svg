@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cross</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---iPhone" transform="translate(-314.000000, -28.000000)" fill="#9099A7">
+            <g id="MobileNav-Overlay" transform="translate(0.000000, -1.000000)">
+                <g id="Nav" transform="translate(33.000000, 28.000000)">
+                    <g id="cross" transform="translate(280.000000, 0.000000)">
+                        <path d="M36.4641741,15 L-1.46417409,15 C-2.86648582,15 -4,16.12 -4,17.5 C-4,18.88 -2.86648582,20 -1.46417409,20 L36.4641741,20 C37.8664858,20 39,18.88 39,17.5 C39,16.12 37.8664858,15 36.4641741,15 Z" id="Shape" transform="translate(17.500000, 17.500000) rotate(-315.000000) translate(-17.500000, -17.500000) "></path>
+                        <path d="M36.4641741,15 L-1.46417409,15 C-2.86648582,15 -4,16.12 -4,17.5 C-4,18.88 -2.86648582,20 -1.46417409,20 L36.4641741,20 C37.8664858,20 39,18.88 39,17.5 C39,16.12 37.8664858,15 36.4641741,15 Z" id="Shape" transform="translate(17.500000, 17.500000) rotate(-45.000000) translate(-17.500000, -17.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

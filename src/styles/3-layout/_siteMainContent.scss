@@ -18,6 +18,14 @@
     left: 0;
     width: 100%;
     height: 100px;
+    @media (max-width: $breakpoint-tablet) {
+      height: 50px;
+      bottom: -30px;
+    }
+    @media (max-width: $breakpoint-mobile) {
+      height: 20px;
+      bottom: -10px;;
+    }
   }
 }
 

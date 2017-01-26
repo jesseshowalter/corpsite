@@ -23,6 +23,10 @@
 
   li{
     list-style: none;
+    @media (max-width: $breakpoint-tablet) {
+      margin:0 auto;
+      padding: 0;
+    }
   }
 
   a:link, a:visited{

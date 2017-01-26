@@ -22,6 +22,9 @@
       height: 100px;
       bottom: 0;
     }
+    @media (max-width: $breakpoint-mobile) {
+      bottom: -5px;
+    }
   }
 }
 

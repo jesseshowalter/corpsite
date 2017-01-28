@@ -5,8 +5,8 @@
 // @codekit-prepend "vendors/lity.js";
 // @codekit-prepend "vendors/smoothState.js";
 
-
 $(document).ready(function(){
+
 
   // -------------------------------
   // vertical Tabs for Press and FAQ
@@ -103,25 +103,26 @@ $(document).ready(function(){
   closeBttn.addEventListener( 'click', toggleOverlay );
  })();
 
+
  // -------------------------------
  // Smooth State
  // -------------------------------
-    (function ($) {
-     'use strict';
-     var $body    = $('html, body'), // Define jQuery collection
-         content  = $('#main').smoothState({
-           onStart : {
-             duration: 250,
-             render: function () {
-               content.toggleAnimationClass('is-exiting');
-
-               // Scroll user to the top
-               $body.animate({ 'scrollTop': 0 });
-
-             }
-           }
-         }).data('smoothState');
-    })(jQuery);
+    // (function ($) {
+    //  'use strict';
+    //  var $body    = $('html, body'), // Define jQuery collection
+    //      content  = $('#main').smoothState({
+    //        onStart : {
+    //          duration: 250,
+    //          render: function () {
+    //            content.toggleAnimationClass('is-exiting');
+    //
+    //            // Scroll user to the top
+    //            $body.animate({ 'scrollTop': 0 });
+    //
+    //          }
+    //        }
+    //      }).data('smoothState');
+    // })(jQuery);
 
 
 });

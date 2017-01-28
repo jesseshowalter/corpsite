@@ -64,6 +64,9 @@
     display:inline;
     margin:0;
   }
+  li.downL{
+    display: none;
+  }
 
   a{
     display:inline-block;
@@ -72,7 +75,7 @@
     text-decoration: none;
     padding: 10px 15px;
     margin-left: 10px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid transparent;
     font-family: $font-book;
     @include transition15;
   }
@@ -112,9 +115,6 @@
   display: none;
 }
 
-.overlay .downL{
-  display: none;
-}
 
 @media (max-width: $breakpoint-tablet) {
   #siteHeader #mainNav{
@@ -125,12 +125,12 @@
     	top: 0;
     	left: 0;
     	background: rgba(white, 0.98);
-      z-index: 100;
+      z-index: 10000;
 
 
       .downL{
-        width: 50%;
-        margin: 40px auto;
+        width: 40%;
+        margin: 40px auto 0;
         display: block;
         text-align: center;
       }
@@ -139,8 +139,8 @@
     /* Overlay closing cross */
     .overlay .overlay-close {
       display:block;
-    	width: 80px;
-    	height: 80px;
+    	width: 50px;
+    	height: 50px;
     	position: absolute;
     	right: 10px;
     	top: 10px;
@@ -158,7 +158,7 @@
     .overlay nav {
     	text-align: center;
     	position: relative;
-    	top: 30%;
+    	top: 25%;
     	height: 60%;
     	font-size: 54px;
     	-webkit-transform: translateY(-50%);
@@ -181,7 +181,7 @@
     	min-height: 54px;
       @media (max-width: $breakpoint-tablet) {
         height: 0;
-        padding: 40px 0;
+        padding: 35px 0;
       }
     }
 
@@ -254,5 +254,27 @@
     // 		min-height: 34px;
     // 	}
     // }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  #siteHeader #mainNav{
+    .overlay {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(white, 0.98);
+      z-index: 10000;
+
+
+      .downL{
+        width: 50%;
+        margin: 5px auto 0;
+        display: block;
+        text-align: center;
+      }
+    }
   }
 }

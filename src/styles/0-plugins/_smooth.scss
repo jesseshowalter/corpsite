@@ -35,6 +35,19 @@
     transform: none;
   }
 }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    // transform: translate3d(0, 100%, 0);
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: none;
+    transform: translateY(0px);
+  }
+}
 
 /*
  * CSS Page Transitions
@@ -44,18 +57,19 @@
   .scene_element {
     animation-duration: 0.25s;
     transition-timing-function: ease-in;
-    animation-fill-mode: both;
+    // animation-fill-mode: both;
 
   }
 
   .scene_element--fadein {
     animation-name: fadeIn;
   }
-
   .scene_element--fadeinup {
     animation-name: fadeInUp;
   }
-
+  .scene_element--fadeindown {
+    animation-name: fadeInDown;
+  }
   .scene_element--fadeinright {
     animation-name: fadeInRight;
   }

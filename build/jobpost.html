@@ -12,34 +12,39 @@
   <![endif]-->
 </head>
 <body>
+<div id="main" class="m-scene">
+
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
-  <section id="siteHeader" class="jobs">
-    <nav id="mainNav" class="container">
-      <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
-      <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
-      <div class="overlay">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-          <ul id="navMenu">
-            <li><a href="about.html">About</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a class="download" href="#">Download</a></li>
-            <!-- <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
-            <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li> -->
-          </ul>
-        </nav>
-      </div>
-    </nav> <!-- mainNav -->
-    <div id="siteHeaderWrapper" class="container">
-      <h1>Job Post</h1>
-    </div> <!-- siteHeaderWrapper -->
-  </section>
+  <div class="m-header scene_element scene_element--fadein">
+    <section id="siteHeader" class="jobs">
+      <nav id="mainNav" class="container">
+        <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
+        <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
+        <div class="overlay">
+          <button type="button" class="overlay-close">Close</button>
+          <nav>
+            <ul id="navMenu">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a class="download" href="#">Download</a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav> <!-- mainNav -->
+      <div id="siteHeaderWrapper" class="container">
+        <h1>Job Post</h1>
+      </div> <!-- siteHeaderWrapper -->
+    </section>
+  </div>
   <!-- Page Header -->
 
   <!-- Main Content Area -->
-  <section id="siteMainContent">
+  <div class="m-header scene_element scene_element--fadeinup">
+    <section id="siteMainContent">
 
     <div class="container">
       <a class="backToLink" href="jobs.html">Back To Jobs Page</a>
@@ -94,12 +99,15 @@
       </article>
     </div>
   </section>
-  <!-- Site Main Content Area-->
+  <!-- Main Content Area-->
 
+  <!--bannerIosAndroid -->
   <section id="bannerIosAndroid">
     <h3>Available in the iOS &amp; Android App Store</h3>
   </section>
+  <!--bannerIosAndroid -->
 
+  <!--Footer -->
   <section id="footer">
     <a href="jobs.html">Jobs</a>
     <a href="business.html">Business</a>
@@ -107,6 +115,9 @@
     <a href="terms.html">Terms</a>
     <a href="typography.html">Typography</a>
   </section>
+  <!--Footer -->
+
+</div> <!-- #main -->
 </body>
 <script src="scripts/app-min.js"></script>
 </html>

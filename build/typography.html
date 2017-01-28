@@ -6,69 +6,82 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>About Hobnob</title>
   <link rel="stylesheet" href="styles/main.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
+<div id="main" class="m-scene">
+
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
-  <section id="siteHeader" class="policyAndTerms">
-    <nav id="mainNav" class="container">
-      <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
-      <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
-      <div class="overlay">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-          <ul id="navMenu">
-            <li><a href="about.html">About</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a class="download" href="#">Download</a></li>
-            <!-- <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
-            <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li> -->
-          </ul>
-        </nav>
-      </div>
-    </nav> <!-- mainNav -->
-    <div id="siteHeaderWrapper" class="container">
-      <h1>Typography</h1>
-    </div> <!-- siteHeaderWrapper -->
-  </section>
+  <div class="m-header scene_element scene_element--fadein">
+    <section id="siteHeader" class="policyAndTerms">
+      <nav id="mainNav" class="container">
+        <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
+        <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
+        <div class="overlay">
+          <button type="button" class="overlay-close">Close</button>
+          <nav>
+            <ul id="navMenu">
+              <li><a href="about.html">About</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a class="download" href="#">Download</a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav> <!-- mainNav -->
+      <div id="siteHeaderWrapper" class="container">
+        <h1>Typography</h1>
+      </div> <!-- siteHeaderWrapper -->
+    </section>
+  </div>
   <!-- Page Header -->
 
   <!-- Main Content Area -->
-  <section id="siteMainContent">
-    <div class="container containerSmall">
-      <h1>H1 - Hobnob is an amazing company</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nisi ea soluta, unde neque itaque dolorem omnis ipsam assumenda, quod facilis culpa quibusdam, officiis modi? Aperiam quaerat debitis corporis quos.</p>
-      <h2>H2 - We Play games at lunchtime</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium incidunt cumque tempore suscipit impedit hic doloribus blanditiis quo, consectetur. Vitae, deleniti rem doloribus ea eos quos aliquid quibusdam. Temporibus, quo.</p>
-      <h3>H3 - We drink beer on fridays</h3>
-      <ul>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-      </ul>
-      <h4>H4 - We make the interwebs happen</h4>
-      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis laboriosam ea maxime doloribus nulla, nihil dolor molestiae, mollitia neque doloremque laborum, nesciunt molestias at! Optio ad doloremque doloribus quis? Incidunt?</blockquote>
-      <h5>H5 - I use a 27 inch iMac for designing</h5>
-      <ol>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-        <li>List Items</li>
-      </ol>
-    </div>
-  </section>
-  <!-- Site Main Content Area-->
+  <div class="m-header scene_element scene_element--fadeinup">
+    <section id="siteMainContent">
+      <div class="container containerSmall">
+        <h1>H1 - Hobnob is an amazing company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nisi ea soluta, unde neque itaque dolorem omnis ipsam assumenda, quod facilis culpa quibusdam, officiis modi? Aperiam quaerat debitis corporis quos.</p>
+        <h2>H2 - We Play games at lunchtime</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium incidunt cumque tempore suscipit impedit hic doloribus blanditiis quo, consectetur. Vitae, deleniti rem doloribus ea eos quos aliquid quibusdam. Temporibus, quo.</p>
+        <h3>H3 - We drink beer on fridays</h3>
+        <ul>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+        </ul>
+        <h4>H4 - We make the interwebs happen</h4>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis laboriosam ea maxime doloribus nulla, nihil dolor molestiae, mollitia neque doloremque laborum, nesciunt molestias at! Optio ad doloremque doloribus quis? Incidunt?</blockquote>
+        <h5>H5 - I use a 27 inch iMac for designing</h5>
+        <ol>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+          <li>List Items</li>
+        </ol>
+      </div>
+    </section>
+  </div>
+  <!-- Main Content Area-->
 
+  <!--bannerIosAndroid -->
   <section id="bannerIosAndroid">
     <h3>Available in the iOS &amp; Android App Store</h3>
   </section>
+  <!--bannerIosAndroid -->
 
+  <!--Footer -->
   <section id="footer">
     <a href="jobs.html">Jobs</a>
     <a href="business.html">Business</a>
@@ -76,6 +89,9 @@
     <a href="terms.html">Terms</a>
     <a href="typography.html">Typography</a>
   </section>
+  <!--Footer -->
+
+</div> <!-- #main -->
 </body>
 <script src="scripts/app-min.js"></script>
 </html>

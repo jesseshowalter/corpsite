@@ -251,7 +251,7 @@
 		},
 	"\/build\/images\/banner-business.jpg": {
 		"ft": 16384,
-		"iS": 112287,
+		"iS": 100562,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-business.jpg",
 		"oF": 0,
@@ -259,7 +259,7 @@
 		},
 	"\/build\/images\/banner-faq.jpg": {
 		"ft": 16384,
-		"iS": 82942,
+		"iS": 70423,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-faq.jpg",
 		"oF": 0,
@@ -275,7 +275,7 @@
 		},
 	"\/build\/images\/banner-iosAndroid.jpg": {
 		"ft": 16384,
-		"iS": 33069,
+		"iS": 27893,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-iosAndroid.jpg",
 		"oF": 0,
@@ -283,7 +283,7 @@
 		},
 	"\/build\/images\/banner-jobs.jpg": {
 		"ft": 16384,
-		"iS": 76750,
+		"iS": 63122,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-jobs.jpg",
 		"oF": 0,
@@ -291,7 +291,7 @@
 		},
 	"\/build\/images\/banner-policyAndTerms.jpg": {
 		"ft": 16384,
-		"iS": 43501,
+		"iS": 30218,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-policyAndTerms.jpg",
 		"oF": 0,
@@ -317,7 +317,7 @@
 		},
 	"\/build\/images\/btnAppStoreGreen.png": {
 		"ft": 32768,
-		"iS": 13961,
+		"iS": 4873,
 		"oA": 0,
 		"oAP": "\/build\/images\/btnAppStoreGreen.png",
 		"oF": 0,
@@ -345,7 +345,7 @@
 		},
 	"\/build\/images\/btnPlayStoreGreen.png": {
 		"ft": 32768,
-		"iS": 14695,
+		"iS": 7768,
 		"oA": 0,
 		"oAP": "\/build\/images\/btnPlayStoreGreen.png",
 		"oF": 0,
@@ -373,7 +373,7 @@
 		},
 	"\/build\/images\/cross.png": {
 		"ft": 32768,
-		"iS": 1163,
+		"iS": 206,
 		"oA": 0,
 		"oAP": "\/build\/images\/cross.png",
 		"oF": 0,
@@ -391,15 +391,15 @@
 		},
 	"\/build\/images\/featuredLogos.png": {
 		"ft": 32768,
-		"iS": 57606,
+		"iS": 51451,
 		"oA": 0,
 		"oAP": "\/build\/images\/featuredLogos.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/featureShowcaseSlide1.png": {
 		"ft": 32768,
-		"iS": 2259024,
+		"iS": 518713,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureShowcaseSlide1.png",
 		"oF": 0,
@@ -407,7 +407,7 @@
 		},
 	"\/build\/images\/featureShowcaseSlideBg.jpg": {
 		"ft": 16384,
-		"iS": 508981,
+		"iS": 382029,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureShowcaseSlideBg.jpg",
 		"oF": 0,
@@ -423,27 +423,27 @@
 		},
 	"\/build\/images\/featureSlideChatMobile.png": {
 		"ft": 32768,
-		"iS": 31448,
+		"iS": 141582,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideChatMobile.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/featureSlideCreate.png": {
 		"ft": 32768,
-		"iS": 1331443,
+		"iS": 943327,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideCreate.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/featureSlideCreateMobile.png": {
 		"ft": 32768,
-		"iS": 193365,
+		"iS": 591318,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideCreateMobile.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/featureSlideInvite.png": {
 		"ft": 32768,
@@ -455,11 +455,11 @@
 		},
 	"\/build\/images\/featureSlideInviteMobile.png": {
 		"ft": 32768,
-		"iS": 41251,
+		"iS": 96311,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideInviteMobile.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/featureSlideMemories.png": {
 		"ft": 32768,
@@ -471,11 +471,11 @@
 		},
 	"\/build\/images\/featureSlideMemoriesMobile.png": {
 		"ft": 32768,
-		"iS": 685399,
+		"iS": 766914,
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideMemoriesMobile.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/hamburger.svg": {
 		"ft": 2097152,
@@ -509,15 +509,15 @@
 		},
 	"\/build\/images\/phoneFrame.png": {
 		"ft": 32768,
-		"iS": 522740,
+		"iS": 30019,
 		"oA": 0,
 		"oAP": "\/build\/images\/phoneFrame.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/reviewCollage.jpg": {
 		"ft": 16384,
-		"iS": 58977,
+		"iS": 50361,
 		"oA": 0,
 		"oAP": "\/build\/images\/reviewCollage.jpg",
 		"oF": 0,
@@ -525,7 +525,7 @@
 		},
 	"\/build\/images\/stars.png": {
 		"ft": 32768,
-		"iS": 13142,
+		"iS": 9775,
 		"oA": 0,
 		"oAP": "\/build\/images\/stars.png",
 		"oF": 0,
@@ -551,7 +551,7 @@
 		},
 	"\/build\/images\/valuePhone1.jpg": {
 		"ft": 16384,
-		"iS": 37209,
+		"iS": 34774,
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone1.jpg",
 		"oF": 0,
@@ -559,7 +559,7 @@
 		},
 	"\/build\/images\/valuePhone2.jpg": {
 		"ft": 16384,
-		"iS": 25601,
+		"iS": 23107,
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone2.jpg",
 		"oF": 0,
@@ -567,7 +567,7 @@
 		},
 	"\/build\/images\/valuePhone3.jpg": {
 		"ft": 16384,
-		"iS": 24875,
+		"iS": 22549,
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone3.jpg",
 		"oF": 0,
@@ -575,19 +575,19 @@
 		},
 	"\/build\/images\/video1.png": {
 		"ft": 32768,
-		"iS": 3902920,
+		"iS": 484789,
 		"oA": 0,
 		"oAP": "\/build\/images\/video1.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/video2.png": {
 		"ft": 32768,
-		"iS": 3318069,
+		"iS": 415316,
 		"oA": 0,
 		"oAP": "\/build\/images\/video2.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/index.html": {
 		"ft": 8192,

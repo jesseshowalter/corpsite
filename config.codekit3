@@ -413,6 +413,70 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/build\/images\/featureSlideChat.png": {
+		"ft": 32768,
+		"iS": 518713,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideChat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/featureSlideChatMobile.png": {
+		"ft": 32768,
+		"iS": 31448,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideChatMobile.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/build\/images\/featureSlideCreate.png": {
+		"ft": 32768,
+		"iS": 1331443,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideCreate.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/build\/images\/featureSlideCreateMobile.png": {
+		"ft": 32768,
+		"iS": 193365,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideCreateMobile.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/build\/images\/featureSlideInvite.png": {
+		"ft": 32768,
+		"iS": 277410,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideInvite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/featureSlideInviteMobile.png": {
+		"ft": 32768,
+		"iS": 41251,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideInviteMobile.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/build\/images\/featureSlideMemories.png": {
+		"ft": 32768,
+		"iS": 1046095,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideMemories.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/featureSlideMemoriesMobile.png": {
+		"ft": 32768,
+		"iS": 685399,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideMemoriesMobile.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/build\/images\/hamburger.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -428,16 +492,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/images\/hobnobLogo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/build\/images\/hobnobLogoDark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/hobnobLogoDark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -519,14 +573,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/images\/video1.jpg": {
-		"ft": 16384,
-		"iS": 243601,
-		"oA": 0,
-		"oAP": "\/build\/images\/video1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/build\/images\/video1.png": {
 		"ft": 32768,
 		"iS": 3902920,
@@ -535,21 +581,13 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/build\/images\/video2.jpg": {
-		"ft": 16384,
-		"iS": 180248,
-		"oA": 0,
-		"oAP": "\/build\/images\/video2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/build\/images\/video2.png": {
 		"ft": 32768,
 		"iS": 3318069,
 		"oA": 0,
 		"oAP": "\/build\/images\/video2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/build\/index.html": {
 		"ft": 8192,
@@ -634,9 +672,9 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/scripts\/app-min.js",
-		"oF": 3,
-		"sC": 0,
+		"oAP": "\/src\/scripts\/app-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/classie.js": {
@@ -645,7 +683,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/classie-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/jquery-3.1.1.min.js": {
@@ -663,7 +701,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/lity-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/modernizr.custom.js": {
@@ -672,7 +710,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/modernizr.custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/slick.js": {
@@ -690,7 +728,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/smoothState-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/styles\/.sass-cache\/0c90e8b898a49861a44d984eadf090c05b64d750\/_box-sizing.scssc": {

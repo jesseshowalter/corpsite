@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About Hobnob</title>
+  <title>About | Hobnob</title>
+  <meta name="description" content="Create stunning invites. Send them through text message. Manage your guests. All for free. App for iOS and Android." />
+  <meta name="keywords" content="events, invitations, invite, party, flier, flyer, design, evite, guest, sms" />
   <link rel="stylesheet" href="styles/main.css">
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,74 +14,88 @@
   <![endif]-->
 </head>
 <body>
+<div id="main" class="m-scene"> <!-- encapsulates all animations for smoothState.js and _smooth.scss -->
+
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
-  <section id="siteHeader" class="about">
-    <nav id="mainNav" class="container">
-      <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
-      <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
-      <div class="overlay">
-        <button type="button" class="overlay-close">Close</button>
-        <nav>
-          <ul id="navMenu">
-            <li><a class="navActive" href="about.html">About</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a class="download" href="#">Download</a></li>
-          </ul>
-        </nav>
-      </div>
-    </nav> <!-- mainNav -->
-    <div id="siteHeaderWrapper" class="container">
-      <h1>About</h1>
-    </div> <!-- siteHeaderWrapper -->
-  </section>
+  <div class="m-header scene_element scene_element--fadein">
+    <section id="siteHeader" class="about">
+      <nav id="mainNav" class="container">
+        <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
+        <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
+        <div class="overlay">
+          <button type="button" class="overlay-close">Close</button>
+          <nav>
+            <ul id="navMenu">
+              <li><a class="navActive" href="about.html">About</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a class="download" href="#">Download</a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/GHy5RoiYDu" target="_blank" class="btn btnApple"><img src="images/btnAppStoreGreen.png" alt=""></a></li>
+              <li class="downL"><a href="http://go.hbnb.io/Xwsm/fbOLTCaYDu" target="_blank" class="btn btnGoogle"><img src="images/btnPlayStoreGreen.png" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav> <!-- mainNav -->
+      <div id="siteHeaderWrapper" class="container"> <!-- layout/_siteHeader.scss -->
+        <h1 class="m-header scene_element scene_element--fadeinright">About</h1>
+      </div> <!-- siteHeaderWrapper -->
+    </section>
+  </div>
   <!-- Page Header -->
 
   <!-- Main Content Area -->
-  <section id="siteMainContent">
-    <div class="container">
-      <article class="featureStatement">
-        <h2>Hobnob is...</br> actually social.</h2>
-        <p>We help you create real life experiences with the people you care about most. Hobnob takes all the hassle out of organizing people for any type of occasion, and streamlines your communication before, during, and after your events.</p>
-      </article>
-      <article class="valuesList">
-        <div class="valuesListBlock">
-          <h3><span>1</span>Integrity</h3>
-          <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
-        </div>
-        <div class="valuesListBlock">
-          <h3><span>2</span>Curioisty</h3>
-          <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
-        </div>
-        <div class="valuesListBlock">
-          <h3><span>3</span>Diversity</h3>
-          <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
-        </div>
-        <div class="valuesListBlock">
-          <h3><span>4</span>Perspective</h3>
-          <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
-        </div>
-        <div class="valuesListBlock">
-          <h3><span>5</span>Authenticity</h3>
-          <p>Our mission is to encourage more genuine interaction, with authentic relationships in real‑life. We can only do this by being real ourselves.</p>
-        </div>
-      </article>
-    </div>
-  </section>
+  <div class="m-header scene_element scene_element--fadeinup">
+    <section id="siteMainContent"> <!-- layout/_siteMainContent.scss -->
+      <div class="container">
+        <article class="featureStatement"> <!-- modules/_featureStatement.scss -->
+          <h2>Hobnob is...</br> actually social.</h2>
+          <p>We help you create real life experiences with the people you care about most. Hobnob takes all the hassle out of organizing people for any type of occasion, and streamlines your communication before, during, and after your events.</p>
+        </article>
+        <article class="valuesList"> <!-- modules/_valuesList.scss -->
+          <div class="valuesListBlock"> <!-- modules/_valuesList.scss -->
+            <h3><span>1</span>Integrity</h3>
+            <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
+          </div>
+          <div class="valuesListBlock">
+            <h3><span>2</span>Curioisty</h3>
+            <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
+          </div>
+          <div class="valuesListBlock">
+            <h3><span>3</span>Diversity</h3>
+            <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
+          </div>
+          <div class="valuesListBlock">
+            <h3><span>4</span>Perspective</h3>
+            <p>We trust each other, hold each other accountable, and take responsibility for our actions. Everything we do is built on a foundation of mutual respect, humility, and honesty so we can all thrive.</p>
+          </div>
+          <div class="valuesListBlock">
+            <h3><span>5</span>Authenticity</h3>
+            <p>Our mission is to encourage more genuine interaction, with authentic relationships in real‑life. We can only do this by being real ourselves.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
   <!-- Main Content Area-->
 
-  <section id="bannerIosAndroid">
+  <!--bannerIosAndroid -->
+  <section id="bannerIosAndroid"> <!-- modules/_bannerIosAndroid.scss -->
     <h3>Available in the iOS &amp; Android App Store</h3>
   </section>
+  <!--bannerIosAndroid -->
 
-  <section id="footer">
+  <!--Footer -->
+  <section id="footer"> <!-- layout/_footer.scss -->
     <a href="jobs.html">Jobs</a>
     <a href="business.html">Business</a>
     <a href="privacy.html">Privacy</a>
     <a href="terms.html">Terms</a>
     <a href="typography.html">Typography</a>
   </section>
+  <!--Footer -->
+
+</div> <!-- #main -->
 </body>
 <script src="scripts/app-min.js"></script>
 </html>

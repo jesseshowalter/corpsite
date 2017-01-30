@@ -590,6 +590,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/build\/scripts\/app-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/scripts\/app-min.js.map",
+		"oF": 0
+		},
 	"\/build\/styles\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -639,7 +645,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/classie-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/jquery-3.1.1.min.js": {
@@ -657,7 +663,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/lity-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/modernizr.custom.js": {
@@ -666,7 +672,7 @@
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/modernizr.custom-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/slick.js": {
@@ -674,6 +680,15 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/src\/scripts\/vendors\/slick-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/src\/scripts\/vendors\/smoothState.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/scripts\/vendors\/smoothState-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1652,19 +1667,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/styles\/0-plugins\/_responsiveNav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/styles\/0-plugins\/_responsiveNav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/src\/styles\/0-plugins\/_slick.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1674,6 +1676,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/0-plugins\/_slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/0-plugins\/_smooth.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/0-plugins\/_smooth.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

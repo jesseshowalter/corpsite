@@ -352,7 +352,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 .valuesListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: center; padding: 70px 0; }
 
-@media (max-width: 768px) { .valuesListBlock { display: block; padding: 20px 0 50px; } }
+@media (max-width: 950px) { .valuesListBlock { display: block; padding: 20px 0 50px; } }
 
 .valuesListBlock:last-child { border: none; }
 
@@ -360,14 +360,14 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 .valuesListBlock h3:last-child { margin-right: 0; }
 
-@media (max-width: 768px) { .valuesListBlock h3 { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
+@media (max-width: 950px) { .valuesListBlock h3 { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
   .valuesListBlock h3:last-child { margin-right: 0; } }
 
 .valuesListBlock p { float: left; display: block; margin-right: 2.3576520234%; width: 65.8807826589%; padding: 0; margin: 0; text-align: left; }
 
 .valuesListBlock p:last-child { margin-right: 0; }
 
-@media (max-width: 768px) { .valuesListBlock p { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
+@media (max-width: 950px) { .valuesListBlock p { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
   .valuesListBlock p:last-child { margin-right: 0; } }
 
 .valuesListBlock span { font-size: 70px; color: #EEEEEE; margin-right: -15px; }

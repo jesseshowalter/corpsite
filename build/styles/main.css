@@ -151,7 +151,7 @@ a:link, a:visited { color: #4FE3C0; transition: all 0.15s ease-out 0s; }
 
 a:hover, a:active { color: #727272; }
 
-a.linkOut:after { content: url(../images/linkOUt.svg); margin-left: 10px; }
+a.linkOut:after { content: url(../images/linkOut.svg); margin-left: 10px; }
 
 .clearFix { clear: both; }
 

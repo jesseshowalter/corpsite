@@ -20,7 +20,7 @@
     height: 247px;
     @media (max-width: $breakpoint-tablet) {
       height: 100px;
-      bottom: 0;
+      bottom: -1px;
     }
     @media (max-width: $breakpoint-mobile) {
       bottom: -5px;

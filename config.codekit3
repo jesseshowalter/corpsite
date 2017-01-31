@@ -183,7 +183,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-about.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/banner-business.jpg": {
 		"ft": 16384,
@@ -207,7 +207,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-home.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/banner-iosAndroid.jpg": {
 		"ft": 16384,
@@ -239,7 +239,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-press.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/build\/images\/btnAppStore.svg": {
 		"ft": 2097152,

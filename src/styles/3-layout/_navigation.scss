@@ -159,8 +159,10 @@
     .overlay nav {
     	text-align: center;
     	position: relative;
-    	top: 25%;
-    	height: 60%;
+    	// top: 25%;
+    	// height: 60%;
+      top:0;
+      height: 70px;
     	font-size: 54px;
     	-webkit-transform: translateY(-50%);
     	transform: translateY(-50%);
@@ -180,6 +182,7 @@
     	height: 20%;
     	height: calc(100% / 5);
     	min-height: 54px;
+      text-align: center;
       @media (max-width: $breakpoint-tablet) {
         height: 0;
         padding: 35px 0;

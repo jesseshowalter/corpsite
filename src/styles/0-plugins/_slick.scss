@@ -59,6 +59,7 @@
         visibility: hidden;
     }
 }
+
 .slick-slide {
     float: left;
     height: 100%;
@@ -68,6 +69,7 @@
     }
     img {
         display: block;
+        border: 1px solid $gray;
     }
     &.slick-loading img {
         display: none;
@@ -100,7 +102,9 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-
+.featureShowcaseSlide img{
+  border: none;
+}
 
 /* Slider Theme*/
 button.slick-prev, button.slick-next{
@@ -142,7 +146,7 @@ button.slick-prev, button.slick-next{
 // -------------------------------
 .flyerSlider{
   div{
-    max-height: 430px;
+    // max-height: 430px;
     margin: 0 5px 0 0;
   }
 }

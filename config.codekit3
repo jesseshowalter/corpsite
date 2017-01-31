@@ -27,9 +27,17 @@
 		"oAP": "\/build\/faq.html",
 		"oF": 0
 		},
+	"\/build\/flyers\/flyer1.jpg": {
+		"ft": 16384,
+		"iS": 217048,
+		"oA": 0,
+		"oAP": "\/build\/flyers\/flyer1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/flyers\/flyer10.jpg": {
 		"ft": 16384,
-		"iS": 1466357,
+		"iS": 128095,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer10.jpg",
 		"oF": 0,
@@ -37,7 +45,7 @@
 		},
 	"\/build\/flyers\/flyer11.jpg": {
 		"ft": 16384,
-		"iS": 1493231,
+		"iS": 267201,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer11.jpg",
 		"oF": 0,
@@ -45,73 +53,73 @@
 		},
 	"\/build\/flyers\/flyer12.jpg": {
 		"ft": 16384,
-		"iS": 1628058,
+		"iS": 253558,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer12.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer13.jpg": {
+	"\/build\/flyers\/flyer2.jpg": {
 		"ft": 16384,
-		"iS": 1836250,
+		"iS": 245552,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer13.jpg",
+		"oAP": "\/build\/flyers\/flyer2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer14.jpg": {
+	"\/build\/flyers\/flyer3.jpg": {
 		"ft": 16384,
-		"iS": 893817,
+		"iS": 179350,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer14.jpg",
+		"oAP": "\/build\/flyers\/flyer3.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer15.jpg": {
+	"\/build\/flyers\/flyer4.jpg": {
 		"ft": 16384,
-		"iS": 1208760,
+		"iS": 188545,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer15.jpg",
+		"oAP": "\/build\/flyers\/flyer4.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer16.jpg": {
+	"\/build\/flyers\/flyer5.jpg": {
 		"ft": 16384,
-		"iS": 1201648,
+		"iS": 151597,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer16.jpg",
+		"oAP": "\/build\/flyers\/flyer5.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer17.jpg": {
+	"\/build\/flyers\/flyer6.jpg": {
 		"ft": 16384,
-		"iS": 1073446,
+		"iS": 212673,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer17.jpg",
+		"oAP": "\/build\/flyers\/flyer6.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer18.jpg": {
+	"\/build\/flyers\/flyer7.jpg": {
 		"ft": 16384,
-		"iS": 1881263,
+		"iS": 210103,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer18.jpg",
+		"oAP": "\/build\/flyers\/flyer7.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer19.jpg": {
+	"\/build\/flyers\/flyer8.jpg": {
 		"ft": 16384,
-		"iS": 1509396,
+		"iS": 136996,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer19.jpg",
+		"oAP": "\/build\/flyers\/flyer8.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer20.jpg": {
+	"\/build\/flyers\/flyer9.jpg": {
 		"ft": 16384,
-		"iS": 1866627,
+		"iS": 281837,
 		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer20.jpg",
+		"oAP": "\/build\/flyers\/flyer9.jpg",
 		"oF": 0,
 		"opt": 0
 		},

@@ -25,7 +25,7 @@ html { box-sizing: border-box; }
 
 [dir="rtl"] .slick-slide { float: right; }
 
-.slick-slide img { display: block; }
+.slick-slide img { display: block; border: 1px solid #E5E5E5; }
 
 .slick-slide.slick-loading img { display: none; }
 
@@ -41,6 +41,8 @@ html { box-sizing: border-box; }
 
 .slick-arrow.slick-hidden { display: none; }
 
+.featureShowcaseSlide img { border: none; }
+
 /* Slider Theme*/
 button.slick-prev, button.slick-next { display: none; }
 
@@ -54,7 +56,7 @@ button.slick-prev, button.slick-next { display: none; }
 
 .slick-dots .slick-active button { background: #2CD4AE !important; }
 
-.flyerSlider div { max-height: 430px; margin: 0 5px 0 0; }
+.flyerSlider div { margin: 0 5px 0 0; }
 
 /*! Lity - v2.2.2 - 2016-12-14 http://sorgalla.com/lity/ Copyright (c) 2015-2016 Jan Sorgalla; Licensed MIT */
 .lity { z-index: 9990; position: fixed; top: 0; right: 0; bottom: 0; left: 0; white-space: nowrap; background: #0b0b0b; background: rgba(0, 0, 0, 0.9); outline: none !important; opacity: 0; -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }

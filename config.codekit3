@@ -27,14 +27,6 @@
 		"oAP": "\/build\/faq.html",
 		"oF": 0
 		},
-	"\/build\/flyers\/flyer1.jpg": {
-		"ft": 16384,
-		"iS": 1108181,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/build\/flyers\/flyer10.jpg": {
 		"ft": 16384,
 		"iS": 1466357,
@@ -115,75 +107,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/build\/flyers\/flyer2.jpg": {
-		"ft": 16384,
-		"iS": 1622745,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/build\/flyers\/flyer20.jpg": {
 		"ft": 16384,
 		"iS": 1866627,
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer20.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer3.jpg": {
-		"ft": 16384,
-		"iS": 802398,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer4.jpg": {
-		"ft": 16384,
-		"iS": 1408156,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer5.jpg": {
-		"ft": 16384,
-		"iS": 1496745,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer6.jpg": {
-		"ft": 16384,
-		"iS": 1477201,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer7.jpg": {
-		"ft": 16384,
-		"iS": 1274942,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer8.jpg": {
-		"ft": 16384,
-		"iS": 1928886,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/flyers\/flyer9.jpg": {
-		"ft": 16384,
-		"iS": 1569623,
-		"oA": 0,
-		"oAP": "\/build\/flyers\/flyer9.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -477,6 +405,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/build\/images\/featureSlideSocial.png": {
+		"ft": 32768,
+		"iS": 481752,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideSocial.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/images\/featureSlideSocialMobile.png": {
+		"ft": 32768,
+		"iS": 206216,
+		"oA": 0,
+		"oAP": "\/build\/images\/featureSlideSocialMobile.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/build\/images\/hamburger.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -492,6 +436,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/images\/hobnobLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/images\/hobnobLogoGradient.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/hobnobLogoGradient.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -668,13 +622,22 @@
 		"oAP": "\/build\/video\/hobnobDemoVideo.mp4",
 		"oF": 0
 		},
+	"\/src\/scripts\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/scripts\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/scripts\/app.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/src\/scripts\/app-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oAP": "\/build\/scripts\/app-min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/src\/scripts\/vendors\/classie.js": {

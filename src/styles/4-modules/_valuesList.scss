@@ -19,6 +19,7 @@
     @include span-columns(4);
     padding: 0;
     margin: 0;
+    text-align: left;
     @media (max-width: $breakpoint-tablet) {
       @include span-columns(12);
     }
@@ -27,6 +28,7 @@
     @include span-columns(8);
     padding: 0;
     margin: 0;
+    text-align: left;
     @media (max-width: $breakpoint-tablet) {
       @include span-columns(12);
     }

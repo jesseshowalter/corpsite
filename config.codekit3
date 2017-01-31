@@ -419,7 +419,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideChat.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/build\/images\/featureSlideChatMobile.png": {
 		"ft": 32768,

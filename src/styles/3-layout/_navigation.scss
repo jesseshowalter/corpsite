@@ -78,6 +78,7 @@
     border-bottom: 4px solid transparent;
     font-family: $font-book;
     @include transition15;
+    font-size: 15px;
   }
   a:hover{
     border-bottom: 4px solid $turquoise;

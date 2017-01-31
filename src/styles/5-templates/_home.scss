@@ -78,9 +78,9 @@
 
   a.btn{
     display: inline-block;
-    width: 245px;
+    width: 220px;
     height: auto;
-    margin:0 10px 20px;
+    margin:0 10px 10px;
     @media (max-width: $breakpoint-tablet) {
       width: 175px;
     }

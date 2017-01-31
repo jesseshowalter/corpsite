@@ -285,7 +285,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #navMenu li.downL { display: none; }
 
-#navMenu a { display: inline-block; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 15px; margin-left: 10px; border-bottom: 4px solid transparent; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; transition: all 0.15s ease-out 0s; }
+#navMenu a { display: inline-block; color: white; text-transform: uppercase; text-decoration: none; padding: 10px 15px; margin-left: 10px; border-bottom: 4px solid transparent; font-family: "Gotham-Book", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; transition: all 0.15s ease-out 0s; font-size: 15px; }
 
 #navMenu a:hover { border-bottom: 4px solid #4FE3C0; opacity: 0.9; }
 
@@ -345,6 +345,8 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 .containerSmall { max-width: 760px; }
 
 .containerSmall h5 { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; padding: 40px 0 20px; }
+
+.valuesList { text-align: center; padding-top: 40px; }
 
 .valuesListBlock { border-bottom: 1px solid #E5E5E5; overflow: auto; display: flex; align-items: center; padding: 70px 0; }
 
@@ -438,7 +440,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #mainColumn .videoContainer { float: left; }
 
-#mainColumn .questions { font-size: 1.5em; text-transform: uppercase; text-align: center; padding: 0; margin-bottom: 40px; }
+#mainColumn .questions { font-size: 1.2em; text-transform: lowercase; text-align: center; padding: 0; margin-bottom: 40px; }
 
 @media (max-width: 950px) { #mainColumn .questions { border: 1px solid #E5E5E5; font-size: 1.1em; padding: 3em 1em; } }
 
@@ -509,7 +511,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 400px) { #heroWrapper .featuredLogos { display: none; } }
 
-#heroWrapper a.btn { display: inline-block; width: 245px; height: auto; margin: 0 10px 20px; }
+#heroWrapper a.btn { display: inline-block; width: 220px; height: auto; margin: 0 10px 10px; }
 
 @media (max-width: 768px) { #heroWrapper a.btn { width: 175px; } }
 

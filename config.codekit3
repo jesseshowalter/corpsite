@@ -7,7 +7,7 @@
 		"uuidString": "77EF52F3-BB27-44A4-8F1D-894E51C57ED7"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/build\/about.html": {
 		"ft": 8192,
@@ -33,7 +33,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer10.jpg": {
 		"ft": 16384,
@@ -41,7 +42,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer10.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer11.jpg": {
 		"ft": 16384,
@@ -49,7 +51,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer11.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer12.jpg": {
 		"ft": 16384,
@@ -57,7 +60,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer12.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer2.jpg": {
 		"ft": 16384,
@@ -65,7 +69,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer3.jpg": {
 		"ft": 16384,
@@ -73,7 +78,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer4.jpg": {
 		"ft": 16384,
@@ -81,7 +87,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer4.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer5.jpg": {
 		"ft": 16384,
@@ -89,7 +96,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer5.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer6.jpg": {
 		"ft": 16384,
@@ -97,7 +105,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer6.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer7.jpg": {
 		"ft": 16384,
@@ -105,7 +114,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer7.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer8.jpg": {
 		"ft": 16384,
@@ -113,7 +123,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer8.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/flyers\/flyer9.jpg": {
 		"ft": 16384,
@@ -121,7 +132,8 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer9.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/fonts\/GothamSSm-Bold.otf": {
 		"ft": 8192,
@@ -177,13 +189,23 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/build\/images\/banner-404.jpg": {
+		"ft": 16384,
+		"iS": 72558,
+		"oA": 0,
+		"oAP": "\/build\/images\/banner-404.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/build\/images\/banner-about.jpg": {
 		"ft": 16384,
 		"iS": 117658,
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-about.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-business.jpg": {
 		"ft": 16384,
@@ -191,7 +213,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-business.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-faq.jpg": {
 		"ft": 16384,
@@ -199,7 +222,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-faq.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-home.jpg": {
 		"ft": 16384,
@@ -207,7 +231,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-home.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-iosAndroid.jpg": {
 		"ft": 16384,
@@ -215,7 +240,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-iosAndroid.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-jobs.jpg": {
 		"ft": 16384,
@@ -223,7 +249,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-jobs.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-policyAndTerms.jpg": {
 		"ft": 16384,
@@ -231,7 +258,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-policyAndTerms.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/banner-press.jpg": {
 		"ft": 16384,
@@ -239,7 +267,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-press.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/btnAppStore.svg": {
 		"ft": 2097152,
@@ -250,14 +279,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/build\/images\/btnAppStoreGreen.png": {
-		"ft": 32768,
-		"iS": 4873,
-		"oA": 0,
-		"oAP": "\/build\/images\/btnAppStoreGreen.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/build\/images\/btnAppStoreGreen.svg": {
 		"ft": 2097152,
@@ -278,14 +299,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/build\/images\/btnPlayStoreGreen.png": {
-		"ft": 32768,
-		"iS": 7768,
-		"oA": 0,
-		"oAP": "\/build\/images\/btnPlayStoreGreen.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/build\/images\/btnPlayStoreGreen.svg": {
 		"ft": 2097152,
@@ -310,10 +323,12 @@
 	"\/build\/images\/cross.png": {
 		"ft": 32768,
 		"iS": 206,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/cross.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/cross.svg": {
 		"ft": 2097152,
@@ -328,106 +343,102 @@
 	"\/build\/images\/featuredLogos.png": {
 		"ft": 32768,
 		"iS": 51451,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/featuredLogos.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureShowcaseSlide1.png": {
-		"ft": 32768,
-		"iS": 518713,
-		"oA": 0,
-		"oAP": "\/build\/images\/featureShowcaseSlide1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/images\/featureShowcaseSlideBg.jpg": {
+	"\/build\/images\/featureSlideChat.jpg": {
 		"ft": 16384,
-		"iS": 382029,
+		"iS": 472766,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureShowcaseSlideBg.jpg",
+		"oAP": "\/build\/images\/featureSlideChat.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideChat.png": {
-		"ft": 32768,
-		"iS": 518713,
+	"\/build\/images\/featureSlideChatMobile.jpg": {
+		"ft": 16384,
+		"iS": 103812,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideChat.png",
+		"oAP": "\/build\/images\/featureSlideChatMobile.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideChatMobile.png": {
-		"ft": 32768,
-		"iS": 141582,
+	"\/build\/images\/featureSlideCreate.jpg": {
+		"ft": 16384,
+		"iS": 239943,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideChatMobile.png",
+		"oAP": "\/build\/images\/featureSlideCreate.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideCreate.png": {
-		"ft": 32768,
-		"iS": 943327,
+	"\/build\/images\/featureSlideCreateMobile.jpg": {
+		"ft": 16384,
+		"iS": 144414,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideCreate.png",
+		"oAP": "\/build\/images\/featureSlideCreateMobile.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideCreateMobile.png": {
-		"ft": 32768,
-		"iS": 591318,
+	"\/build\/images\/featureSlideInvite.jpg": {
+		"ft": 16384,
+		"iS": 268097,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideCreateMobile.png",
+		"oAP": "\/build\/images\/featureSlideInvite.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideInvite.png": {
-		"ft": 32768,
-		"iS": 277410,
+	"\/build\/images\/featureSlideInviteMobile.jpg": {
+		"ft": 16384,
+		"iS": 63227,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideInvite.png",
+		"oAP": "\/build\/images\/featureSlideInviteMobile.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideInviteMobile.png": {
-		"ft": 32768,
-		"iS": 96311,
+	"\/build\/images\/featureSlideMemories.jpg": {
+		"ft": 16384,
+		"iS": 227311,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideInviteMobile.png",
+		"oAP": "\/build\/images\/featureSlideMemories.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideMemories.png": {
-		"ft": 32768,
-		"iS": 1046095,
+	"\/build\/images\/featureSlideMemoriesMobile.jpg": {
+		"ft": 16384,
+		"iS": 189492,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideMemories.png",
+		"oAP": "\/build\/images\/featureSlideMemoriesMobile.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideMemoriesMobile.png": {
-		"ft": 32768,
-		"iS": 766914,
+	"\/build\/images\/featureSlideSocial.jpg": {
+		"ft": 16384,
+		"iS": 364565,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideMemoriesMobile.png",
+		"oAP": "\/build\/images\/featureSlideSocial.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/build\/images\/featureSlideSocial.png": {
-		"ft": 32768,
-		"iS": 481752,
+	"\/build\/images\/featureSlideSocialMobile.jpg": {
+		"ft": 16384,
+		"iS": 71564,
 		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideSocial.png",
+		"oAP": "\/build\/images\/featureSlideSocialMobile.jpg",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/images\/featureSlideSocialMobile.png": {
-		"ft": 32768,
-		"iS": 206216,
-		"oA": 0,
-		"oAP": "\/build\/images\/featureSlideSocialMobile.png",
-		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/hamburger.svg": {
 		"ft": 2097152,
@@ -472,10 +483,12 @@
 	"\/build\/images\/phoneFrame.png": {
 		"ft": 32768,
 		"iS": 30019,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/phoneFrame.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/reviewCollage.jpg": {
 		"ft": 16384,
@@ -483,15 +496,18 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/reviewCollage.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/stars.png": {
 		"ft": 32768,
 		"iS": 9775,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/stars.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/stars.svg": {
 		"ft": 2097152,
@@ -509,7 +525,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/threeUp.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/valuePhone1.jpg": {
 		"ft": 16384,
@@ -517,7 +534,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/valuePhone2.jpg": {
 		"ft": 16384,
@@ -525,7 +543,8 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/valuePhone3.jpg": {
 		"ft": 16384,
@@ -533,23 +552,37 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
+		},
+	"\/build\/images\/video1.jpg": {
+		"ft": 16384,
+		"iS": 107294,
+		"oA": 0,
+		"oAP": "\/build\/images\/video1.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/video1.png": {
 		"ft": 32768,
 		"iS": 484789,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/video1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/images\/video2.png": {
 		"ft": 32768,
 		"iS": 415316,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/video2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/index.html": {
 		"ft": 8192,
@@ -629,15 +662,6 @@
 		"oA": 2,
 		"oAP": "\/build\/video\/hobnobDemoVideo.mp4",
 		"oF": 0
-		},
-	"\/src\/scripts\/app-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/scripts\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/src\/scripts\/app.js": {
 		"ft": 64,
@@ -3566,6 +3590,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -3763,6 +3791,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4042,6 +4074,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -4093,6 +4129,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4187,6 +4227,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -4633,7 +4677,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4726,7 +4771,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

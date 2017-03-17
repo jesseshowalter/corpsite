@@ -71,6 +71,17 @@
   background: url("../images/banner-business.jpg");
   @include fullImage;
 }
+#siteHeader.error{
+  background: url("../images/banner-404.jpg");
+  @include fullImage;
+  h1.m-header{
+    font-size: 11em;
+
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 3em;
+    }
+  }
+}
 #siteHeader.policyAndTerms{
   background: url("../images/banner-policyAndTerms.jpg");
   @include fullImage;

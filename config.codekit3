@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/build\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/404.html",
+		"oF": 0
+		},
 	"\/build\/about.html": {
 		"ft": 8192,
 		"oA": 2,

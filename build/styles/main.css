@@ -257,6 +257,12 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #siteHeader.business { background: url("../images/banner-business.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
+#siteHeader.error { background: url("../images/banner-404.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
+
+#siteHeader.error h1.m-header { font-size: 11em; }
+
+@media (max-width: 768px) { #siteHeader.error h1.m-header { font-size: 3em; } }
+
 #siteHeader.policyAndTerms { background: url("../images/banner-policyAndTerms.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
 #mainNav { overflow: auto; padding-top: 20px; max-width: 1200px; margin: 0 auto; }

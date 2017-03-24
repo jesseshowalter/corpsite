@@ -86,20 +86,6 @@
     }
   }
 
-  .featuredLogos{
-    margin-top: 80px;
-    width: 70%;
-    @media (max-width: $breakpoint-laptop) {
-      margin-top:20px;
-    }
-    @media (max-width: $breakpoint-tablet) {
-      width: 350px;
-    }
-    @media (max-width: $breakpoint-mobile) {
-      display: none;
-    }
-  }
-
   a.btn{
     display: inline-block;
     width: 220px;
@@ -141,6 +127,26 @@
 // ------------------------------------------------
 // ------       The Discover Section         ---------
 // ------------------------------------------------
+.featuredLogos{
+  max-width: 800px;
+  margin: -60px auto 60px;
+  padding: 0 40px;
+  text-align: center;
+  @media (max-width: $breakpoint-tablet) {
+    margin: -40px auto 80px;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+
+  h4{
+    color: $shamrock;
+  }
+  img{
+    width: 100%;
+  }
+}
+
 #discoverHobnob{
   position: relative;
   height: 900px;
@@ -150,6 +156,7 @@
     height: auto;
     padding-bottom: 50px;
   }
+
 
   .discoverTagline{
     position:absolute;

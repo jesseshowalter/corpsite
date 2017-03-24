@@ -6,11 +6,10 @@ textarea, input[type="color"], input[type="date"], input[type="datetime"], input
     border-radius: 0.125em;
     border: 1px solid #ececec;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
-    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Gotham-Light";
     font-size: 1em;
     margin-bottom: 0.75em;
     padding: 0.5em 0.5em;
-    // width: 100%;
     display: inline-box;
 }
 
@@ -33,7 +32,6 @@ label {
     width: 60px;
     font-family: "Courier New", Courier, monospace;
     float: left;
-    font-size: 1em;
     line-height: normal;
     -webkit-appearance: none;
 }
@@ -61,4 +59,7 @@ select {
   font-size:1em;
   font-family: "Gotham-Light";
   margin:10px 0;
+  &:hover{
+    cursor: pointer;
+  }
 }

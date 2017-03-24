@@ -525,14 +525,6 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #heroWrapper .cta .downloadButtons { margin-top: 20px; }
 
-#heroWrapper .featuredLogos { margin-top: 80px; width: 70%; }
-
-@media (max-width: 950px) { #heroWrapper .featuredLogos { margin-top: 20px; } }
-
-@media (max-width: 768px) { #heroWrapper .featuredLogos { width: 350px; } }
-
-@media (max-width: 400px) { #heroWrapper .featuredLogos { display: none; } }
-
 #heroWrapper a.btn { display: inline-block; width: 220px; height: auto; margin: 0 10px 10px; }
 
 @media (max-width: 768px) { #heroWrapper a.btn { width: 175px; } }
@@ -546,6 +538,16 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 @media (max-width: 768px) { #siteHeader.home { height: 500px; } }
 
 @media (max-width: 400px) { #siteHeader.home { height: 350px; } }
+
+.featuredLogos { max-width: 800px; margin: -60px auto 60px; padding: 0 40px; text-align: center; }
+
+@media (max-width: 768px) { .featuredLogos { margin: -40px auto 80px; } }
+
+@media (max-width: 400px) { .featuredLogos { display: none; } }
+
+.featuredLogos h4 { color: #2CD4AE; }
+
+.featuredLogos img { width: 100%; }
 
 #discoverHobnob { position: relative; height: 900px; overflow: visible; }
 
@@ -660,18 +662,20 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 @media (max-width: 768px) { .jobListBlock .jobRequirments { float: left; display: block; margin-right: 2.3576520234%; width: 100%; margin: 20px 0 0; }
   .jobListBlock .jobRequirments:last-child { margin-right: 0; } }
 
-textarea, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple=multiple], select { box-sizing: border-box; -webkit-transition: border-color; transition: border-color; background-color: white; border-radius: 0.125em; border: 1px solid #ececec; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; font-size: 1em; margin-bottom: 0.75em; padding: 0.5em 0.5em; display: inline-box; }
+textarea, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple=multiple], select { box-sizing: border-box; -webkit-transition: border-color; transition: border-color; background-color: white; border-radius: 0.125em; border: 1px solid #ececec; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); font-family: "Gotham-Light"; font-size: 1em; margin-bottom: 0.75em; padding: 0.5em 0.5em; display: inline-box; }
 
 .login-raw-phone-number { margin-left: 80px; width: calc(100% - 60px) !important; display: list-item; }
 
 label { margin-bottom: 0.375em; display: block; }
 
-.login-country-code { width: 60px; font-family: "Courier New", Courier, monospace; float: left; font-size: 1em; line-height: normal; -webkit-appearance: none; }
+.login-country-code { width: 60px; font-family: "Courier New", Courier, monospace; float: left; line-height: normal; -webkit-appearance: none; }
 
 select { display: inline-block; width: auto; max-width: 100%; margin-bottom: 0.75em; }
 
 .login { max-width: 700px !important; margin: 0 auto 100px; }
 
 .loginbtn { display: inline-block; width: 220px; padding: 15px 30px; border-radius: 4px; background: #4fe3c0; border: none; color: white; font-size: 1em; font-family: "Gotham-Light"; margin: 10px 0; }
+
+.loginbtn:hover { cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

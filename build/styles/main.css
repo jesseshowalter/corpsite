@@ -257,6 +257,8 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #siteHeader.business { background: url("../images/banner-business.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
+#siteHeader.admin { background: url("../images/banner-admin.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
+
 #siteHeader.error { background: url("../images/banner-404.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; }
 
 #siteHeader.error h1.m-header { font-size: 11em; }
@@ -490,7 +492,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 455px) { #heroWrapper { padding-top: 40px; } }
 
-@media (max-width: 400px) { #heroWrapper { padding-top: 40px; } }
+@media (max-width: 400px) { #heroWrapper { padding-top: 15px; } }
 
 #heroWrapper .heroVideo { float: left; display: block; margin-right: 2.3576520234%; width: 48.8211739883%; }
 
@@ -513,6 +515,16 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 @media (max-width: 768px) { #heroWrapper .cta { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
   #heroWrapper .cta:last-child { margin-right: 0; } }
 
+#heroWrapper .cta h2 { margin-bottom: 0; margin-top: 40px; line-height: 1.3em; }
+
+@media (max-width: 950px) { #heroWrapper .cta h2 { margin-top: 0px; } }
+
+#heroWrapper .cta h3 { font-size: 1em; font-family: "Gotham-Light"; text-transform: capitalize; max-width: 450px; margin: 0 auto; }
+
+@media (max-width: 400px) { #heroWrapper .cta h3 { display: none; } }
+
+#heroWrapper .cta .downloadButtons { margin-top: 20px; }
+
 #heroWrapper .featuredLogos { margin-top: 80px; width: 70%; }
 
 @media (max-width: 950px) { #heroWrapper .featuredLogos { margin-top: 20px; } }
@@ -525,11 +537,9 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 768px) { #heroWrapper a.btn { width: 175px; } }
 
-@media (max-width: 400px) { #heroWrapper a.btn { width: 210px; } }
-
 #heroWrapper a.btn:hover { transform: scale(1.015); }
 
-#siteHeader.home { background: url("../images/banner-home2.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 1000px; color: white; position: relative; }
+#siteHeader.home { background: url("../images/banner-home2.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 1000px; color: white; position: relative; background-position: right top; }
 
 @media (max-width: 950px) { #siteHeader.home { height: 700px; } }
 
@@ -548,7 +558,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 @media (max-width: 1350px) { #discoverHobnob .discoverTagline { left: 30px; top: 30px; width: 420px; }
   #discoverHobnob .discoverTagline h2 { font-size: 2em; } }
 
-@media (max-width: 1100px) { #discoverHobnob .discoverTagline { position: relative; left: 0; bottom: 0; display: block; width: 80%; min-width: 325px; margin: 0 auto 80px; text-align: center; } }
+@media (max-width: 1100px) { #discoverHobnob .discoverTagline { position: relative; left: 0; bottom: 0; display: block; width: 80%; margin: 0 auto 80px; text-align: center; } }
 
 #discoverHobnob .discoverVideo1, #discoverHobnob .discoverVideo2 { width: 750px; z-index: 20; }
 
@@ -649,5 +659,19 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 768px) { .jobListBlock .jobRequirments { float: left; display: block; margin-right: 2.3576520234%; width: 100%; margin: 20px 0 0; }
   .jobListBlock .jobRequirments:last-child { margin-right: 0; } }
+
+textarea, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select[multiple=multiple], select { box-sizing: border-box; -webkit-transition: border-color; transition: border-color; background-color: white; border-radius: 0.125em; border: 1px solid #ececec; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; font-size: 1em; margin-bottom: 0.75em; padding: 0.5em 0.5em; display: inline-box; }
+
+.login-raw-phone-number { margin-left: 80px; width: calc(100% - 60px) !important; display: list-item; }
+
+label { margin-bottom: 0.375em; display: block; }
+
+.login-country-code { width: 60px; font-family: "Courier New", Courier, monospace; float: left; font-size: 1em; line-height: normal; -webkit-appearance: none; }
+
+select { display: inline-block; width: auto; max-width: 100%; margin-bottom: 0.75em; }
+
+.login { max-width: 700px !important; margin: 0 auto 100px; }
+
+.loginbtn { display: inline-block; width: 220px; padding: 15px 30px; border-radius: 4px; background: #4fe3c0; border: none; color: white; font-size: 1em; font-family: "Gotham-Light"; margin: 10px 0; }
 
 /*# sourceMappingURL=main.css.map */

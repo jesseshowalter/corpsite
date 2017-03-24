@@ -13,7 +13,7 @@
     padding-top: 40px;
   }
   @media (max-width: $breakpoint-mobile) {
-   padding-top:40px;
+   padding-top:15px;
   }
 
   .heroVideo{
@@ -60,6 +60,30 @@
     @media (max-width: $breakpoint-tablet) {
       @include span-columns(12);
     }
+
+    h2{
+      margin-bottom: 0;
+      margin-top: 40px;
+      line-height: 1.3em;
+      @media (max-width: $breakpoint-laptop) {
+        margin-top:0px;
+      }
+    }
+
+    h3{
+      font-size: 1em;
+      font-family: "Gotham-Light";
+      text-transform: capitalize;
+      max-width: 450px;
+      margin: 0 auto;
+      @media (max-width: $breakpoint-mobile) {
+        display: none;
+      }
+    }
+
+    .downloadButtons{
+      margin-top:20px;
+    }
   }
 
   .featuredLogos{
@@ -84,9 +108,9 @@
     @media (max-width: $breakpoint-tablet) {
       width: 175px;
     }
-    @media (max-width: $breakpoint-mobile) {
-      width: 210px;
-    }
+    // @media (max-width: $breakpoint-mobile) {
+    //   width: 210px;
+    // }
   }
   a.btn:hover{
     transform: scale(1.015);
@@ -100,6 +124,7 @@
   height: 1000px;
   color: white;
   position: relative;
+  background-position: right top;
   @media (max-width: $breakpoint-laptop) {
     height: 700px;
   }
@@ -148,7 +173,7 @@
       bottom: 0;
       display: block;
       width: 80%;
-      min-width: 325px;
+      // min-width: 325px;
       margin: 0 auto 80px;
       text-align: center;
     }

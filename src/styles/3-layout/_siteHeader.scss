@@ -71,6 +71,10 @@
   background: url("../images/banner-business.jpg");
   @include fullImage;
 }
+#siteHeader.admin{
+  background: url("../images/banner-admin.jpg");
+  @include fullImage;
+}
 #siteHeader.error{
   background: url("../images/banner-404.jpg");
   @include fullImage;

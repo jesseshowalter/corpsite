@@ -18,7 +18,7 @@
 
   <!-- Page Header - styles found in layout/_siteHeader.scss -->
   <div class="m-header scene_element scene_element--fadein">
-    <section id="siteHeader" class="error">
+    <section id="siteHeader" class="admin">
       <nav id="mainNav" class="container">
         <a id="brand" href="index.html"><h1><img src="images/hobnobLogo.svg" alt="Hobnob Invites"/></h1></a>
         <div id="nav-toggle-switch"><img src="images/hamburger.svg" alt=""></div>
@@ -38,7 +38,7 @@
         </div>
       </nav> <!-- mainNav -->
       <div id="siteHeaderWrapper" class="container">
-        <h1 class="m-header scene_element scene_element--fadeinright">404</h1>
+        <h1 class="m-header scene_element scene_element--fadeinright">Admin</h1>
       </div> <!-- siteHeaderWrapper -->
     </section>
   </div>
@@ -48,20 +48,20 @@
   <div class="m-header scene_element scene_element--fadeinup">
     <section id="siteMainContent">
       <div class="container">
-        <main id="main" role="main">
-          <h1>Sign In</h1>
+        <section class="login">
+          <h2>Sign In</h2>
           <form class="new_login" id="new_login" action="/sign_in_otp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="f2x3HVN8UCLN5ziw0cC8zHKfQOBHNWylg3TsOMoyMPZf2c/xPBf2AZ6F9tU7ySJMPtU4noo7eo14vgLysE2tkA==">
-          <div class="field login-phone-number">
-          <label class="required" for="login_raw_phone_number">Phone number</label>
-          <select class="login-country-code" name="login[country_code]" id="login_country_code"><option value="US">+1&nbsp;&nbsp;&nbsp;&nbsp;United States</option></select>
-          <input placeholder="Phone number" data-inputmask="'alias': 'phone_number'" class="login-raw-phone-number" type="tel" name="login[raw_phone_number]" id="login_raw_phone_number">
-          </div>
-          <div class="actions">
-          <input type="submit" name="commit" value="Next">
-          <div class="hint">You will receive a confirmation code via text</div>
-          </div>
+            <div class="field login-phone-number">
+              <label class="required" for="login_raw_phone_number">Phone number</label>
+              <select class="login-country-code" name="login[country_code]" id="login_country_code"><option value="US">+1&nbsp;&nbsp;&nbsp;&nbsp;United States</option></select>
+              <input placeholder="Phone number" data-inputmask="'alias': 'phone_number'" class="login-raw-phone-number" type="tel" name="login[raw_phone_number]" id="login_raw_phone_number">
+            </div>
+            <div class="actions">
+              <input class="loginbtn" type="submit" name="commit" value="Next">
+              <div class="hint">You will receive a confirmation code via text</div>
+            </div>
           </form>
-          </main>
+        </section>
       </div>
     </section>
   </div>

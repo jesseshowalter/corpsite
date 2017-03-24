@@ -529,7 +529,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 #heroWrapper a.btn:hover { transform: scale(1.015); }
 
-#siteHeader.home { background: url("../images/banner-home.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 1000px; color: white; position: relative; }
+#siteHeader.home { background: url("../images/banner-home2.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 0; height: 1000px; color: white; position: relative; }
 
 @media (max-width: 950px) { #siteHeader.home { height: 700px; } }
 

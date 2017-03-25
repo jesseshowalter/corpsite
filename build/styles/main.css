@@ -315,7 +315,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 
 @media (max-width: 768px) { #siteHeader #mainNav { /* Overlay closing cross */ /* Menu style */ /* Effects */ }
   #siteHeader #mainNav .overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.98); z-index: 10000; }
-  #siteHeader #mainNav .overlay .downL { width: 40%; margin: 40px auto 0; display: block; text-align: center; }
+  #siteHeader #mainNav .overlay .downL { width: 80%; margin: 20px auto 0; display: block; text-align: center; }
   #siteHeader #mainNav .overlay .overlay-close { display: block; width: 50px; height: 50px; position: absolute; right: 10px; top: 10px; overflow: hidden; border: none; background: url(../images/cross.svg) no-repeat center center; text-indent: 200%; color: transparent; outline: none; z-index: 100; cursor: pointer; }
   #siteHeader #mainNav .overlay nav { text-align: center; position: relative; top: 0; height: 70px; font-size: 54px; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
   #siteHeader #mainNav .overlay ul { list-style: none; padding: 0; margin: 0 auto; display: inline-block; height: 100%; position: relative; }
@@ -335,8 +335,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
   #siteHeader #mainNav .overlay.open nav ul { opacity: 1; -webkit-transform: rotateX(0deg); transform: rotateX(0deg); }
   #siteHeader #mainNav .overlay.close nav ul { -webkit-transform: translateY(25%) rotateX(-35deg); transform: translateY(25%) rotateX(-35deg); } }
 
-@media (max-width: 400px) { #siteHeader #mainNav .overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.98); z-index: 10000; }
-  #siteHeader #mainNav .overlay .downL { width: 50%; margin: 5px auto 0; display: block; text-align: center; } }
+@media (max-width: 400px) { #siteHeader #mainNav .overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.98); z-index: 10000; } }
 
 #footer { text-align: center; padding: 100px 0; }
 
@@ -515,7 +514,7 @@ strong { font-family: "Gotham-Bold", "Helvetica Neue", "Helvetica", "Roboto", "A
 @media (max-width: 768px) { #heroWrapper .cta { float: left; display: block; margin-right: 2.3576520234%; width: 100%; }
   #heroWrapper .cta:last-child { margin-right: 0; } }
 
-#heroWrapper .cta h2 { margin-bottom: 0; margin-top: 40px; line-height: 1.3em; }
+#heroWrapper .cta h2 { margin-bottom: 0; margin-top: 20px; line-height: 1.3em; }
 
 @media (max-width: 950px) { #heroWrapper .cta h2 { margin-top: 0px; } }
 

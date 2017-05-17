@@ -7,7 +7,7 @@
 		"uuidString": "77EF52F3-BB27-44A4-8F1D-894E51C57ED7"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/build\/404.html": {
 		"ft": 8192,
@@ -45,6 +45,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -54,6 +55,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer10.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -63,6 +65,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer11.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -72,6 +75,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer12.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -81,6 +85,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -90,6 +95,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer3.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -99,6 +105,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer4.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -108,6 +115,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer5.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -117,6 +125,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer6.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -126,6 +135,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer7.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -135,6 +145,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer8.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -144,6 +155,7 @@
 		"oA": 0,
 		"oAP": "\/build\/flyers\/flyer9.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -207,6 +219,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-404.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -216,6 +229,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-about.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -225,6 +239,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-admin.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -234,6 +249,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-business.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -243,6 +259,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-faq.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -252,6 +269,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-home.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -261,6 +279,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-home2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -270,6 +289,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-iosAndroid.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -279,6 +299,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-jobs.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -288,6 +309,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-policyAndTerms.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -297,6 +319,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/banner-press.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -353,11 +376,12 @@
 	"\/build\/images\/cross.png": {
 		"ft": 32768,
 		"iS": 206,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/cross.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/images\/cross.svg": {
@@ -376,17 +400,19 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featuredLogos.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/build\/images\/featuredLogos.png": {
 		"ft": 32768,
 		"iS": 51451,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/featuredLogos.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/images\/featureSlideChat.jpg": {
@@ -395,6 +421,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideChat.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -404,6 +431,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideChatMobile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -413,6 +441,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideCreate.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -422,6 +451,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideCreateMobile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -431,6 +461,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideInvite.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -440,6 +471,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideInviteMobile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -449,6 +481,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideMemories.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -458,6 +491,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideMemoriesMobile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -467,6 +501,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideSocial.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -476,6 +511,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/featureSlideSocialMobile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -522,11 +558,12 @@
 	"\/build\/images\/phoneFrame.png": {
 		"ft": 32768,
 		"iS": 30019,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/phoneFrame.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/images\/reviewCollage.jpg": {
@@ -535,17 +572,19 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/reviewCollage.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/build\/images\/stars.png": {
 		"ft": 32768,
 		"iS": 9775,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/stars.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/images\/stars.svg": {
@@ -564,6 +603,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/threeUp.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -573,6 +613,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -582,6 +623,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -591,6 +633,7 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/valuePhone3.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -600,27 +643,30 @@
 		"oA": 0,
 		"oAP": "\/build\/images\/video1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/build\/images\/video1.png": {
 		"ft": 32768,
 		"iS": 484789,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/video1.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/images\/video2.png": {
 		"ft": 32768,
 		"iS": 415316,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/images\/video2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/build\/index.html": {
@@ -694,6 +740,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/typography.html",
+		"oF": 0
+		},
+	"\/build\/video\/hobnobDemoVideo.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/video\/hobnobDemoVideo.mp4",
 		"oF": 0
 		},
 	"\/src\/scripts\/app.js": {
@@ -3924,6 +3976,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4748,14 +4804,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4818,7 +4866,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
